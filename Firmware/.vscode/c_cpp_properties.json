@@ -8,10 +8,10 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/Workspace/npa-meb-validation-s3/include",
-                "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/Workspace/npa-meb-validation-s3/src",
-                "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/Workspace/npa-meb-validation-s3/lib/SD",
-                "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/Workspace/npa-meb-validation-s3/lib/General",
+                "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/PlatformIO/Projects/ESP32-BaseBoard/Firmware/include",
+                "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/PlatformIO/Projects/ESP32-BaseBoard/Firmware/src",
+                "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/PlatformIO/Projects/ESP32-BaseBoard/Firmware/lib/SD",
+                "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/PlatformIO/Projects/ESP32-BaseBoard/Firmware/lib/General",
                 "C:/Users/y.vallee/.platformio/packages/framework-arduinoespressif32@src-7dd98b7103bed509926a4d02dd75f518/libraries/WiFi/src",
                 "C:/Users/y.vallee/.platformio/packages/framework-arduinoespressif32@src-7dd98b7103bed509926a4d02dd75f518/libraries/Network/src",
                 "C:/Users/y.vallee/.platformio/packages/framework-arduinoespressif32@src-7dd98b7103bed509926a4d02dd75f518/libraries/SD_MMC/src",
@@ -307,10 +307,10 @@
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/Workspace/npa-meb-validation-s3/include",
-                    "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/Workspace/npa-meb-validation-s3/src",
-                    "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/Workspace/npa-meb-validation-s3/lib/SD",
-                    "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/Workspace/npa-meb-validation-s3/lib/General",
+                    "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/PlatformIO/Projects/ESP32-BaseBoard/Firmware/include",
+                    "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/PlatformIO/Projects/ESP32-BaseBoard/Firmware/src",
+                    "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/PlatformIO/Projects/ESP32-BaseBoard/Firmware/lib/SD",
+                    "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/PlatformIO/Projects/ESP32-BaseBoard/Firmware/lib/General",
                     "C:/Users/y.vallee/.platformio/packages/framework-arduinoespressif32@src-7dd98b7103bed509926a4d02dd75f518/libraries/WiFi/src",
                     "C:/Users/y.vallee/.platformio/packages/framework-arduinoespressif32@src-7dd98b7103bed509926a4d02dd75f518/libraries/Network/src",
                     "C:/Users/y.vallee/.platformio/packages/framework-arduinoespressif32@src-7dd98b7103bed509926a4d02dd75f518/libraries/SD_MMC/src",
