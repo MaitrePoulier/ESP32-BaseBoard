@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "esp32bb-rescue") (type "Legacy") (uri "${KIPRJMOD}/esp32bb-rescue.lib") (options "") (descr ""))
+	(lib (name "esp32bb-cache") (type "Legacy") (uri "/run/media/melchior/Data/Perso/Divers/ESP32-Audio/esp32bb-cache.lib") (options "") (descr "Legacy project cache library"))
+)
