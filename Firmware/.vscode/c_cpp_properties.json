@@ -8,10 +8,10 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/PlatformIO/Projects/revF-on-S3/include",
-                "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/PlatformIO/Projects/revF-on-S3/src",
-                "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/PlatformIO/Projects/revF-on-S3/lib/General",
-                "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/PlatformIO/Projects/revF-on-S3/.pio/libdeps/adafruit_metro_esp32s3/SdFat - Adafruit Fork/src",
+                "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/PlatformIO/Projects/ESP32-BaseBoard/Firmware/include",
+                "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/PlatformIO/Projects/ESP32-BaseBoard/Firmware/src",
+                "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/PlatformIO/Projects/ESP32-BaseBoard/Firmware/lib/General",
+                "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/PlatformIO/Projects/ESP32-BaseBoard/Firmware/.pio/libdeps/adafruit_metro_esp32s3/SdFat - Adafruit Fork/src",
                 "C:/Users/y.vallee/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/SPI/src",
                 "C:/Users/y.vallee/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32s3/include/newlib/platform_include",
                 "C:/Users/y.vallee/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32s3/include/freertos/include",
@@ -243,10 +243,10 @@
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/PlatformIO/Projects/revF-on-S3/include",
-                    "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/PlatformIO/Projects/revF-on-S3/src",
-                    "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/PlatformIO/Projects/revF-on-S3/lib/General",
-                    "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/PlatformIO/Projects/revF-on-S3/.pio/libdeps/adafruit_metro_esp32s3/SdFat - Adafruit Fork/src",
+                    "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/PlatformIO/Projects/ESP32-BaseBoard/Firmware/include",
+                    "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/PlatformIO/Projects/ESP32-BaseBoard/Firmware/src",
+                    "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/PlatformIO/Projects/ESP32-BaseBoard/Firmware/lib/General",
+                    "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/PlatformIO/Projects/ESP32-BaseBoard/Firmware/.pio/libdeps/adafruit_metro_esp32s3/SdFat - Adafruit Fork/src",
                     "C:/Users/y.vallee/.platformio/packages/framework-arduinoespressif32@3.20014.231204/libraries/SPI/src",
                     "C:/Users/y.vallee/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32s3/include/newlib/platform_include",
                     "C:/Users/y.vallee/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32s3/include/freertos/include",
