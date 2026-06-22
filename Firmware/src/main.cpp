@@ -6,24 +6,6 @@
 #include "MyWifi.h"
 #include "s3.h"
 
-//********************* NTP time ************** */
-//#include <time.h>
-
-
-//*********************SD MMC ***************** */
-//https://github.com/espressif/arduino-esp32/blob/master/libraries/SD_MMC/README.md
-#include "FS.h"
-#include "SD_MMC.h"
-#include "sd.h"
-
-//******************** I2S and wav ************* */
-#include "i2s.h"
-
-
-//******************** UART to h7 ************** */
-#include "H7serial.h"
-HardwareSerial H7Serial(1);  // UART1
-static uint32_t lastSend = 0;
 
 /********************* Console **************************************/
 // Handlers simples
@@ -31,8 +13,6 @@ extern console_t console[13];
 void handler_help(char *)      { console_displayHelp(console); }
 void handler_history(char *)   { console_displayHistory(); }
 void handler_colors(char *)    { console_test();}
-void handler_SD(char *)        { sd_test();}
-void handler_wav(char *)       { play_wav("/Toxicity.wav");}
 void handler_restart(char *)   { ESP.restart();}
 void handler_detail(char *)    { s3_detail();}
 void handler_temp(char *)      { Serial.printf("Internal Temperature: %.1fC\r\n",temperatureRead());}
@@ -46,8 +26,6 @@ console_t console[] = {
   {"help",      "Display this menu",                              0, handler_help},
   {"h",         "Display command history",                        0, handler_history},
   {"colors",    "Test the color in the AINSI console",            0, handler_colors},
-  {"SD",        "Run SD test",                                    0, handler_SD},
-  {"wav",       "play an wav file present on the SD card",        0, handler_wav},
   {"restart",   "Restart the ESP32-S3",                           0, handler_restart},
   {"detail",    "give detail about the ESP32-S3 uCtrl used",      0, handler_detail},
   {"temp",      "give the internal temperature of the ESP32-S3",  0, handler_temp},
@@ -71,13 +49,6 @@ void setup() {
   }
   console_displayIntro();
   ptr = &Input;
-
-  //Va au 2 diodes pour garder les DC-DC allumé quand le H7 se reprogramme
-  pinMode(S3_PWR_en, OUTPUT);
-  digitalWrite(S3_PWR_en, HIGH);
-
-  //Uart to the h7
-  H7serial_init();
 
   printf("\r\n> ");
 }
@@ -104,12 +75,6 @@ void loop()
       else if (console_cmd == Error) {
           Serial.printf("Unknown command!\r\n> ");
       }
-  }
-  
-  if (millis() - lastSend >= 1000)  // every 1 second
-  {
-    sendTimeToH7();
-    lastSend = millis();
   }
 
 }
