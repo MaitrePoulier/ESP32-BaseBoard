@@ -1104,8 +1104,8 @@
         "uuid": "0517dd22-de94-4a8b-9b76-2b5b6fdb2923"
       },
       {
-        "filename": "power.kicad_sch",
-        "name": "Power",
+        "filename": "esp32bb.kicad_sch",
+        "name": "esp32bb",
         "uuid": "4882634b-ce53-4bd0-aabc-a2d7450a69c4"
       }
     ],
