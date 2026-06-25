@@ -6,6 +6,9 @@
     #define I2S_SD      25   // DATA OUT
     #define I2S_SCK     27    // BCLK 
 
+    #define SCREEN_WIDTH 480 
+    #define SCREEN_HEIGHT 320 
+
 
     //Define the random number source
     //static inline int32_t console_random(void){return rng_read();}

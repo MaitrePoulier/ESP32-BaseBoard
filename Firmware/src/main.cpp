@@ -6,6 +6,11 @@
 #include "MyWifi.h"
 #include "s3.h"
 
+// Hardware-specific library for the TFT screen
+#include <SPI.h>
+#include <TFT_eSPI.h> 
+TFT_eSPI tft = TFT_eSPI();       // Invoke custom library
+
 
 /********************* Console **************************************/
 // Handlers simples
@@ -51,6 +56,17 @@ void setup() {
   ptr = &Input;
 
   printf("\r\n> ");
+
+  //Set up the display
+  tft.init();
+  tft.setRotation(3);
+  tft.fillScreen(TFT_BLACK);
+  tft.setTextSize(1);
+  tft.setTextColor(TFT_WHITE);
+  tft.setCursor(0, 0);
+  tft.println(F("It's Working!!!"));
+
+  tft.espi
 }
 
 void loop() 
