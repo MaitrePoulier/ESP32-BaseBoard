@@ -2,10 +2,9 @@
 #include <string.h>
 #include "General.h"
 #include "Console.h"
-#include <wifi.h>
+#include <WiFi.h>
 #include "MyWifi.h"
 #include "s3.h"
-
 // Hardware-specific library for the TFT screen
 #include <SPI.h>
 #include <TFT_eSPI.h> 
@@ -47,6 +46,9 @@ Command console_cmd = CMD_noCommand;
 String Input;
 String *ptr;
 
+//
+TFT_eSPI tft = TFT_eSPI();       // Invoke custom library
+
 void setup() {
   Serial.begin(115200);
   while(!Serial){
@@ -64,9 +66,13 @@ void setup() {
   tft.setTextSize(1);
   tft.setTextColor(TFT_WHITE);
   tft.setCursor(0, 0);
+<<<<<<< HEAD
   tft.println(F("It's Working!!!"));
 
   tft.espi
+=======
+  tft.println(F("Yannick have done it!!"));
+>>>>>>> 4121331 (Working TFT_eSPI library with the ST7796S display.e enter the commit message for your changes. Lines starting)
 }
 
 void loop() 

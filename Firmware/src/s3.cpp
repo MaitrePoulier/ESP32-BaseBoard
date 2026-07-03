@@ -15,7 +15,10 @@ void s3_detail(void)
 void s3_version(void)
 {
       Serial.printf("PlatformIO Espressif32 version: %s\r\n", PIO_PLATFORM_VERSION);
-      Serial.printf("ESP32 Arduino version: %s\r\n", ESP_ARDUINO_VERSION_STR);
+      Serial.printf("ESP32 Arduino version: %d.%d.%d\r\n",
+                    ESP_ARDUINO_VERSION_MAJOR,
+                    ESP_ARDUINO_VERSION_MINOR,
+                    ESP_ARDUINO_VERSION_PATCH);
       //Appel direct de la fonction système (C/C++ standard)
       Serial.printf("ESP-IDF version: %s\r\n", esp_get_idf_version());
 }
