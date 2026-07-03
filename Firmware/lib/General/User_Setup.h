@@ -38,8 +38,11 @@
 //#define TFT_PARALLEL_8_BIT
 //#defined TFT_PARALLEL_16_BIT // **** 16-bit parallel ONLY for RP2040 processor ****
 
+//**************************************************************************** */
 // Display type -  only define if RPi display
-//#define RPI_DISPLAY_TYPE // 20MHz maximum SPI
+// Needed for the MHS4001 screen. It only accept 16bits SPI transaction.
+#define RPI_DISPLAY_TYPE
+//**************************************************************************** */
 
 // Only define one driver, the other ones must be commented out
 //#define ILI9341_DRIVER       // Generic driver for common displays
@@ -164,26 +167,6 @@
 // will be lower.
 
 
-// ###### EDIT THE PIN NUMBERS IN THE LINES FOLLOWING TO SUIT YOUR ESP8266 SETUP ######
-
-// For NodeMCU - use pin numbers in the form PIN_Dx where Dx is the NodeMCU pin designation
-//#define TFT_MISO  PIN_D6  // Automatically assigned with ESP8266 if not defined
-//#define TFT_MOSI  PIN_D7  // Automatically assigned with ESP8266 if not defined
-//#define TFT_SCLK  PIN_D5  // Automatically assigned with ESP8266 if not defined
-
-//#define TFT_CS    PIN_D8  // Chip select control pin D8
-//#define TFT_DC    PIN_D3  // Data Command control pin
-//#define TFT_RST   PIN_D4  // Reset pin (could connect to NodeMCU RST, see next line)
-//#define TFT_RST  -1     // Set TFT_RST to -1 if the display RESET is connected to NodeMCU RST or 3.3V
-
-
-//#define TFT_BL PIN_D1  // LED back-light (only for ST7789 with backlight control pin)
-
-//#define TOUCH_CS PIN_D2     // Chip select pin (T_CS) of touch screen
-
-//#define TFT_WR PIN_D2       // Write strobe for modified Raspberry Pi TFT only
-
-
 // ######  FOR ESP8266 OVERLAP MODE EDIT THE PIN NUMBERS IN THE FOLLOWING LINES  ######
 
 // Overlap mode shares the ESP8266 FLASH SPI bus with the TFT so has a performance impact
@@ -209,13 +192,17 @@
 // For ESP32 Dev board (only tested with ILI9341 display)
 // The hardware SPI can be mapped to any pins
 
-#define TFT_MISO 19
-#define TFT_MOSI 23
-#define TFT_SCLK 18
-#define TFT_CS    5  // Chip select control pin
-#define TFT_DC    4  // Data Command control pin
-#define TFT_RST  33  // Reset pin (could connect to RST pin)
-//#define TFT_RST  -1  // Set TFT_RST to -1 if display RESET is connected to ESP32 board RST
+#define TFT_WIDTH  320
+#define TFT_HEIGHT 480
+
+#define TFT_MISO  19
+#define TFT_MOSI  23
+#define TFT_SCLK  18
+#define TFT_CS     5  // Chip select control pin
+#define TFT_DC     4  // Data Command control pin
+#define TFT_RST   33  // Reset pin (could connect to RST pin)
+//#define TFT_RST -1  // Set TFT_RST to -1 if display RESET is connected to ESP32 board RST
+#define TOUCH_CS   2     // Chip select pin (T_CS) of touch screen
 
 // For ESP32 Dev board (only tested with GC9A01 display)
 // The hardware SPI can be mapped to any pins
@@ -227,7 +214,7 @@
 //#define TFT_RST  33  // Reset pin (could connect to Arduino RESET pin)
 //#define TFT_BL   22  // LED back-light
 
-#define TOUCH_CS 2     // Chip select pin (T_CS) of touch screen
+//#define TOUCH_CS 21     // Chip select pin (T_CS) of touch screen
 
 //#define TFT_WR 22    // Write strobe for modified Raspberry Pi TFT only
 
