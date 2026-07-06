@@ -204,6 +204,8 @@
 //#define TFT_RST -1  // Set TFT_RST to -1 if display RESET is connected to ESP32 board RST
 #define TOUCH_CS   2     // Chip select pin (T_CS) of touch screen
 
+//#error "The compiler is successfully reading this header file!"
+
 // For ESP32 Dev board (only tested with GC9A01 display)
 // The hardware SPI can be mapped to any pins
 

@@ -239,7 +239,7 @@ void console_test(void)
   Serial.printf(BRED "       Hey this is the color red, and it's bold! \r\n" AINSIrst);
 	Serial.printf(RED  "               If " BLU " you" YEL " are" GRN " bored" CYN " do" MAG " this! \r\n" AINSIrst); 
 	Serial.printf(BRED "               If " BBLU " you" BYEL " are" BGRN " bored" BCYN " do" BMAG " this! \r\n" AINSIrst); 
-	Serial.printf("               "URED"If " UBLU " you" UYEL " are" UGRN " bored" UCYN " do" UMAG " this! \r\n" AINSIrst);
+	Serial.printf(URED "               If " UBLU " you" UYEL " are" UGRN " bored" UCYN " do" UMAG " this! \r\n" AINSIrst);
   print_colored_stars(57); Serial.println();
   print_colored_stars(57); Serial.println();
   print_colored_stars(57); Serial.println();
