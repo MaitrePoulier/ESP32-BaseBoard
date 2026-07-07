@@ -1104,12 +1104,12 @@
         "uuid": "0517dd22-de94-4a8b-9b76-2b5b6fdb2923"
       },
       {
-        "filename": "esp32bb.kicad_sch",
-        "name": "esp32bb",
-        "uuid": "4882634b-ce53-4bd0-aabc-a2d7450a69c4"
+        "filename": "power.kicad_sch",
+        "name": "Power",
+        "uuid": "a6b0987b-7dd7-4bfb-9d68-8cd9c75369c1"
       }
     ],
-    "used_designators": "U2,U8,TP1,JP1-3",
+    "used_designators": "SW3,L1-7,J1-2,J4,J7-8,D1-5,C2-13,C15-24,#PWR5,#PWR7-8,#PWR23,#PWR25-61,R1-3,R6-11,R13-14,R17-20,JP1-3,TP1,Q1,U2-3,U5-8",
     "variants": []
   },
   "sheets": [
@@ -1118,7 +1118,7 @@
       "ESP32"
     ],
     [
-      "4882634b-ce53-4bd0-aabc-a2d7450a69c4",
+      "a6b0987b-7dd7-4bfb-9d68-8cd9c75369c1",
       "Power"
     ]
   ],
