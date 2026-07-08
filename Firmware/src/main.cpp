@@ -5,11 +5,15 @@
 #include <WiFi.h>
 #include "MyWifi.h"
 #include "s3.h"
+#include "Cellular.h"
+#include "Batt.h"
 
 // Hardware-specific library for the TFT screen
 #include <SPI.h>
 #include <TFT_eSPI.h> 
 TFT_eSPI tft = TFT_eSPI();       // Invoke custom library
+
+
 
 
 /********************* Console **************************************/
@@ -19,12 +23,13 @@ void handler_help(char *)      { console_displayHelp(console); }
 void handler_history(char *)   { console_displayHistory(); }
 void handler_colors(char *)    { console_test();}
 void handler_restart(char *)   { ESP.restart();}
-void handler_detail(char *)    { s3_detail();}
+void handler_detail(char *)    { ESP32_detail();}
 void handler_temp(char *)      { Serial.printf("Internal Temperature: %.1fC\r\n",temperatureRead());}
+//void handler_batt(char *)      { Serial.printf("Battery Voltage: %.1fV\r\n",battRead());}
 void handler_wifi(char *)      { MyWifiScan();}
-void handler_crash(char *)     { s3_crash();}
+void handler_crash(char *)     { ESP32_crash();}
 void handler_heap(char *)      { Serial.printf("Available heap: %u Bytes\r\n",ESP.getFreeHeap());}
-void handler_version(char *)   { s3_version();}
+void handler_version(char *)   { ESP32_version();}
 
 
 console_t console[] = {
@@ -34,6 +39,7 @@ console_t console[] = {
   {"restart",   "Restart the ESP32-S3",                           0, handler_restart},
   {"detail",    "give detail about the ESP32-S3 uCtrl used",      0, handler_detail},
   {"temp",      "give the internal temperature of the ESP32-S3",  0, handler_temp},
+  //{"batt",      "give the voltage of the battery",                0, handler_batt},
   {"wifi",      "scan all wifi SSID and give the strengh of the signal",  0, handler_wifi},
   {"crash",     "List the cause of the last reset",               0, handler_crash},
   {"heap",      "Return the remaining heap",                      0, handler_heap},
@@ -59,19 +65,25 @@ void setup() {
   printf("\r\n> ");
 
   //Set up the display
-  tft.init();
-  tft.setRotation(3);
-  tft.fillScreen(TFT_BLACK);
-  tft.setTextSize(1);
-  tft.setTextColor(TFT_WHITE);
-  tft.setCursor(0, 0);
-  tft.println(F("It's Working!!!"));
+  ScreenInit();
+
+  // Set ADC attenuation to 6 dB (optimal for ~1.25V - 1.85V input)
+  analogSetPinAttenuation(BattPin, ADC_6db);
 
 }
 
 void loop() 
 {
+  char buffer[10];
+  float VBatt, ChargeBatt;
+  VBatt = (float)(analogReadMilliVolts(BattPin) * 2.0 / 1000.0);
+  ChargeBatt = getBatteryPercentage(VBatt);
+
+  sprintf(buffer, "Batt: %.2fV - %.0f%%",VBatt,ChargeBatt);
+
+  game(buffer);
   vTaskDelay(10/portTICK_RATE_MS);
+  
   int Input_char;
   char argument[10];
   int idx;

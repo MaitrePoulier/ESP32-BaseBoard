@@ -1,7 +1,7 @@
 #include "s3.h"
 #include <Arduino.h>
 
-void s3_detail(void)
+void ESP32_detail(void)
 {
     Serial.printf("Chip Model:    %s\r\n",ESP.getChipModel());
     Serial.printf("Chip Revision: %u\r\n",ESP.getChipRevision());
@@ -12,7 +12,7 @@ void s3_detail(void)
 }
 
 
-void s3_version(void)
+void ESP32_version(void)
 {
       Serial.printf("PlatformIO Espressif32 version: %s\r\n", PIO_PLATFORM_VERSION);
       Serial.printf("ESP32 Arduino version: %d.%d.%d\r\n",
@@ -23,7 +23,7 @@ void s3_version(void)
       Serial.printf("ESP-IDF version: %s\r\n", esp_get_idf_version());
 }
 
-void s3_crash(void)
+void ESP32_crash(void)
 {
   Serial.print("Reset reason: ");
 

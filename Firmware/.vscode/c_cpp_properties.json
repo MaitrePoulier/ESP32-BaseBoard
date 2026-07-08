@@ -594,7 +594,7 @@
                 "BOARD_HAS_PSRAM",
                 "COMPILATIONDB_INCLUDE_TOOLCHAIN=1",
                 "PIO_PLATFORM_VERSION=\"6.13.0\"",
-                "CORE_DEBUG_LEVEL=3",
+                "CORE_DEBUG_LEVEL=0",
                 "USER_SETUP_LOADED=1",
                 "ESP_PLATFORM",
                 "IDF_VER=\"v5.1.4-828-g33fbade6b8-dirty\"",
