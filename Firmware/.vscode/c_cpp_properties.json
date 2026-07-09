@@ -13,6 +13,9 @@
                 "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/PlatformIO/Projects/ESP32-BaseBoard/Firmware/lib/General",
                 "C:/Users/y.vallee/.platformio/packages/framework-arduinoespressif32@src-7dd98b7103bed509926a4d02dd75f518/libraries/WiFi/src",
                 "C:/Users/y.vallee/.platformio/packages/framework-arduinoespressif32@src-7dd98b7103bed509926a4d02dd75f518/libraries/Network/src",
+                "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/PlatformIO/Projects/ESP32-BaseBoard/Firmware/.pio/libdeps/esp32_wroom_32e_n8r2/lvgl",
+                "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/PlatformIO/Projects/ESP32-BaseBoard/Firmware/.pio/libdeps/esp32_wroom_32e_n8r2/lvgl/src",
+                "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/PlatformIO/Projects/ESP32-BaseBoard/Firmware/lib/Config",
                 "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/PlatformIO/Projects/ESP32-BaseBoard/Firmware/.pio/libdeps/esp32_wroom_32e_n8r2/TFT_eSPI",
                 "C:/Users/y.vallee/.platformio/packages/framework-arduinoespressif32@src-7dd98b7103bed509926a4d02dd75f518/libraries/LittleFS/src",
                 "C:/Users/y.vallee/.platformio/packages/framework-arduinoespressif32@src-7dd98b7103bed509926a4d02dd75f518/libraries/SPIFFS/src",
@@ -304,6 +307,9 @@
                     "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/PlatformIO/Projects/ESP32-BaseBoard/Firmware/lib/General",
                     "C:/Users/y.vallee/.platformio/packages/framework-arduinoespressif32@src-7dd98b7103bed509926a4d02dd75f518/libraries/WiFi/src",
                     "C:/Users/y.vallee/.platformio/packages/framework-arduinoespressif32@src-7dd98b7103bed509926a4d02dd75f518/libraries/Network/src",
+                    "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/PlatformIO/Projects/ESP32-BaseBoard/Firmware/.pio/libdeps/esp32_wroom_32e_n8r2/lvgl",
+                    "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/PlatformIO/Projects/ESP32-BaseBoard/Firmware/.pio/libdeps/esp32_wroom_32e_n8r2/lvgl/src",
+                    "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/PlatformIO/Projects/ESP32-BaseBoard/Firmware/lib/Config",
                     "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/PlatformIO/Projects/ESP32-BaseBoard/Firmware/.pio/libdeps/esp32_wroom_32e_n8r2/TFT_eSPI",
                     "C:/Users/y.vallee/.platformio/packages/framework-arduinoespressif32@src-7dd98b7103bed509926a4d02dd75f518/libraries/LittleFS/src",
                     "C:/Users/y.vallee/.platformio/packages/framework-arduinoespressif32@src-7dd98b7103bed509926a4d02dd75f518/libraries/SPIFFS/src",
@@ -620,7 +626,7 @@
             "cStandard": "gnu17",
             "cppStandard": "gnu++23",
             "forcedInclude": [
-                "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/PlatformIO/Projects/ESP32-BaseBoard/Firmware/lib/General/User_Setup.h",
+                "C:/Users/y.vallee/OneDrive - Motion Composites/Documents/PlatformIO/Projects/ESP32-BaseBoard/Firmware/lib/Config/User_Setup.h",
                 ""
             ],
             "compilerPath": "C:/Users/y.vallee/.platformio/packages/toolchain-xtensa-esp32/bin/xtensa-esp32-elf-gcc.exe",

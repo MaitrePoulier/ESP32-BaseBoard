@@ -1,5 +1,5 @@
 #include "Cellular.h"
-#include "General.h"
+#include "Config.h"
 
 #include <SPI.h>
 #include <TFT_eSPI.h> // Hardware-specific library

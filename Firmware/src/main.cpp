@@ -1,12 +1,17 @@
 #include <Arduino.h>
 #include <string.h>
-#include "General.h"
+#include "Config.h"
 #include "Console.h"
 #include <WiFi.h>
 #include "MyWifi.h"
 #include "s3.h"
 #include "Cellular.h"
 #include "Batt.h"
+
+// LVGL specific
+#include "lvgl.h"
+#define  LV_CONF_INCLUDE_SIMPLE
+
 
 // Hardware-specific library for the TFT screen
 #include <SPI.h>
@@ -30,20 +35,22 @@ void handler_wifi(char *)      { MyWifiScan();}
 void handler_crash(char *)     { ESP32_crash();}
 void handler_heap(char *)      { Serial.printf("Available heap: %u Bytes\r\n",ESP.getFreeHeap());}
 void handler_version(char *)   { ESP32_version();}
+void handler_lvgVersion(char *)  { Serial.printf("LVGL version %d.%d.%d\r\n",lv_version_major(), lv_version_minor(), lv_version_patch());}
 
 
 console_t console[] = {
-  {"help",      "Display this menu",                              0, handler_help},
-  {"h",         "Display command history",                        0, handler_history},
-  {"colors",    "Test the color in the AINSI console",            0, handler_colors},
-  {"restart",   "Restart the ESP32-S3",                           0, handler_restart},
-  {"detail",    "give detail about the ESP32-S3 uCtrl used",      0, handler_detail},
-  {"temp",      "give the internal temperature of the ESP32-S3",  0, handler_temp},
+  {"help",       "Display this menu",                              0, handler_help},
+  {"h",          "Display command history",                        0, handler_history},
+  {"colors",     "Test the color in the AINSI console",            0, handler_colors},
+  {"restart",    "Restart the ESP32-S3",                           0, handler_restart},
+  {"detail",     "give detail about the ESP32-S3 uCtrl used",      0, handler_detail},
+  {"temp",       "give the internal temperature of the ESP32-S3",  0, handler_temp},
   //{"batt",      "give the voltage of the battery",                0, handler_batt},
-  {"wifi",      "scan all wifi SSID and give the strengh of the signal",  0, handler_wifi},
-  {"crash",     "List the cause of the last reset",               0, handler_crash},
-  {"heap",      "Return the remaining heap",                      0, handler_heap},
-  {"version",   "Return the version of ESP_Arduino used",         0, handler_version},
+  {"wifi",       "scan all wifi SSID and give the strengh of the signal",  0, handler_wifi},
+  {"crash",      "List the cause of the last reset",               0, handler_crash},
+  {"heap",       "Return the remaining heap",                      0, handler_heap},
+  {"version",    "Return the version of ESP_Arduino used",         0, handler_version},
+  {"lvglVersion","Return the version of the LVGL library",         0, handler_lvgVersion},
   {nullptr, nullptr, 0, nullptr} // Sentinelle
 };
 
