@@ -12,6 +12,10 @@
     #define SCREEN_WIDTH 480 
     #define SCREEN_HEIGHT 320 
 
+    // ADC calibration characteristics
+    // Mutimeter say 3.629V, reading of the ESP32 say 3.680 so: 0.9861413
+    #define CALIBRATION_FACTOR 0.9861413f
+
 
     //Define the random number source
     //static inline int32_t console_random(void){return rng_read();}

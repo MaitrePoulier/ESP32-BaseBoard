@@ -210,7 +210,7 @@ void console_displayIntro(){
   Serial.printf(    "   Use Tera Term in ANSI mode to support up/down arrows \r\n");
   Serial.printf(    "           Look nice with Consolas Font in 14           \r\n");
   Serial.printf(    "        Type 'help' to display all the commands         \r\n");
-  Serial.printf(  "                Hardware mode: Propel                     \r\n");
+  Serial.printf(  "                  ESP32-WROOM-32E-N8R2                    \r\n");
   print_colored_stars(57); Serial.printf("\r\n> ");
 }
 

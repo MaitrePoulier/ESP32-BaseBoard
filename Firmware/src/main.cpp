@@ -7,6 +7,7 @@
 #include "s3.h"
 #include "Cellular.h"
 #include "Batt.h"
+#include "esp_adc_cal.h"
 
 // LVGL specific
 #include "lvgl.h"
@@ -17,8 +18,6 @@
 #include <SPI.h>
 #include <TFT_eSPI.h> 
 TFT_eSPI tft = TFT_eSPI();       // Invoke custom library
-
-
 
 
 /********************* Console **************************************/
@@ -42,10 +41,10 @@ console_t console[] = {
   {"help",       "Display this menu",                              0, handler_help},
   {"h",          "Display command history",                        0, handler_history},
   {"colors",     "Test the color in the AINSI console",            0, handler_colors},
-  {"restart",    "Restart the ESP32-S3",                           0, handler_restart},
+  {"restart",    "Restart the ESP32-WROOM-32E-N8R2",               0, handler_restart},
   {"detail",     "give detail about the ESP32-S3 uCtrl used",      0, handler_detail},
-  {"temp",       "give the internal temperature of the ESP32-S3",  0, handler_temp},
-  //{"batt",      "give the voltage of the battery",                0, handler_batt},
+  {"temp",       "give the internal temperature of the ESP32",     0, handler_temp},
+  //{"batt",      "give the voltage of the battery",               0, handler_batt},
   {"wifi",       "scan all wifi SSID and give the strengh of the signal",  0, handler_wifi},
   {"crash",      "List the cause of the last reset",               0, handler_crash},
   {"heap",       "Return the remaining heap",                      0, handler_heap},
@@ -74,8 +73,10 @@ void setup() {
   //Set up the display
   ScreenInit();
 
+  // Set 12-bit resolution (0-4095)
+  analogSetWidth(12);
   // Set ADC attenuation to 6 dB (optimal for ~1.25V - 1.85V input)
-  analogSetPinAttenuation(BattPin, ADC_6db);
+  analogSetPinAttenuation(39, ADC_6db);
 
 }
 
@@ -83,13 +84,14 @@ void loop()
 {
   char buffer[10];
   float VBatt, ChargeBatt;
-  VBatt = (float)(analogReadMilliVolts(BattPin) * 2.0 / 1000.0);
+  VBatt = (float)(analogReadMilliVolts(BattPin) * 2.0 * CALIBRATION_FACTOR / 1000.0);
   ChargeBatt = getBatteryPercentage(VBatt);
 
   sprintf(buffer, "Batt: %.2fV - %.0f%%",VBatt,ChargeBatt);
 
   game(buffer);
   vTaskDelay(10/portTICK_RATE_MS);
+
   
   int Input_char;
   char argument[10];

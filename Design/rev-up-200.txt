@@ -1,1 +1,20 @@
-Add copper pour on bottom layer under U6 (battery charger)
+Small update:
+    Add copper pour on bottom layer under U6 (battery charger)
+    Allow to turn off the backlight of the screen for power saving when idle for a long time.
+    SilkScreen should say 18650 cell
+    Add a fuel gauge, like the MAX17260
+    Augment the resistor in series with the 2 leds of the cell charger
+
+
+Big update: (wish)
+    Add SD-card slot with 4 wires connections
+    Change the uCtrl for the ESP32-S31
+        Need to check the compatibility with:
+            pioArduino will need:  (Probably November 4 2026)
+                Arduino Core v4.0+  (presently 3.3.9)
+                ESP-IDF v6.1+       (presently 5.5.4)
+            TFT-eSPI from Bodmer    (presently support only v2.x but it look like it's working with 3.3.9)
+            ESP32-A2DP from pschatzmann (presently support only v3.x)
+
+
+
