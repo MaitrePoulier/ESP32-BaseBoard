@@ -98,8 +98,12 @@ void setup() {
   uint32_t buf_byte_size = buf_pixel_count * sizeof(lv_color_t);
 
   // 2. Allocate dynamically from fast internal DMA memory
-  buf1 = (lv_color_t *)heap_caps_malloc(buf_byte_size, MALLOC_CAP_DMA | MALLOC_CAP_INTERNAL);
-  buf2 = (lv_color_t *)heap_caps_malloc(buf_byte_size, MALLOC_CAP_DMA | MALLOC_CAP_INTERNAL);
+  //buf1 = (lv_color_t *)heap_caps_malloc(buf_byte_size, MALLOC_CAP_DMA | MALLOC_CAP_INTERNAL);
+  //buf2 = (lv_color_t *)heap_caps_malloc(buf_byte_size, MALLOC_CAP_DMA | MALLOC_CAP_INTERNAL);
+
+  //No real speed difference between malloc and aligned_alloc, but aligned_alloc is more explicit about the alignment requirement for DMA.
+  buf1 = (lv_color_t *)heap_caps_aligned_alloc(32,buf_byte_size, MALLOC_CAP_DMA | MALLOC_CAP_INTERNAL);
+  buf2 = (lv_color_t *)heap_caps_aligned_alloc(32,buf_byte_size, MALLOC_CAP_DMA | MALLOC_CAP_INTERNAL);
 
 
   // 3. Fallback check to ensure allocation succeeded
@@ -115,6 +119,7 @@ void setup() {
   // Create display 
   disp = lv_display_create(SCREEN_WIDTH, SCREEN_HEIGHT); 
   lv_display_set_flush_cb(disp, my_flush_cb);
+  
   // Change sizeof(buf1) to buf_byte_size
   lv_display_set_buffers(disp, buf1, buf2, buf_byte_size, LV_DISPLAY_RENDER_MODE_PARTIAL);
 

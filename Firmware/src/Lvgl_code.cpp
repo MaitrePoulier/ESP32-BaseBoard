@@ -3,6 +3,21 @@
 
 extern TFT_eSPI tft;
 
+void ScreenInit(void){
+  //Set up the display
+  tft.init();
+  tft.initDMA(); 
+  //ADD THIS LINE TO FIX DMA COLORS
+  //Maybe I will have color problem when I use something else than LVGL routine
+  tft.setSwapBytes(true); 
+  
+  tft.setRotation(3);
+  tft.fillScreen(TFT_BLACK);
+  tft.setTextSize(1);
+  tft.setTextColor(TFT_WHITE);
+  tft.setCursor(0, 0);
+}
+
 void my_flush_cb(lv_display_t * disp, const lv_area_t * area, uint8_t * px_map) {
     uint32_t w = (area->x2 - area->x1 + 1);
     uint32_t h = (area->y2 - area->y1 + 1);
@@ -74,21 +89,6 @@ void create_test_ui(void) {
 uint32_t my_tick(void)
 {
   return millis();
-}
-
-void ScreenInit(void){
-  //Set up the display
-  tft.init();
-  tft.initDMA(); 
-  //ADD THIS LINE TO FIX DMA COLORS
-  //Maybe I will have color problem when I use something else than LVGL routine
-  tft.setSwapBytes(true); 
-  
-  tft.setRotation(3);
-  tft.fillScreen(TFT_BLACK);
-  tft.setTextSize(1);
-  tft.setTextColor(TFT_WHITE);
-  tft.setCursor(0, 0);
 }
 
 //From tft_eSPI/examples/Generic/touch_calibrate.ino 

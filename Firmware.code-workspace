@@ -4,5 +4,8 @@
 			"path": "Firmware"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"editor.inlineSuggest.edits.allowCodeShifting": "never",
+		"editor.inlineSuggest.edits.renderSideBySide": "never"
+	}
 }
