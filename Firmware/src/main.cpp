@@ -46,6 +46,7 @@ void handler_crash(char *)     { ESP32_crash();}
 void handler_heap(char *)      { Serial.printf("Available heap: %u Bytes\r\n",ESP.getFreeHeap());}
 void handler_version(char *)   { ESP32_version();}
 void handler_lvgVersion(char *)  { Serial.printf("LVGL version %d.%d.%d\r\n",lv_version_major(), lv_version_minor(), lv_version_patch());}
+void handler_touch(char *)     { touch_calibrate();}
 
 
 console_t console[] = {
@@ -61,6 +62,7 @@ console_t console[] = {
   {"heap",       "Return the remaining heap",                      0, handler_heap},
   {"version",    "Return the version of ESP_Arduino used",         0, handler_version},
   {"lvglVersion","Return the version of the LVGL library",         0, handler_lvgVersion},
+  {"calTouch",   "Calibrate the touch screen",                     0, handler_touch},
   {nullptr, nullptr, 0, nullptr} // Sentinelle
 };
 
@@ -85,7 +87,8 @@ void setup() {
   // Set up the display
   ScreenInit();
 
-  uint16_t calData[5] = { 250, 3600, 300, 3500, 5 }; 
+  //Use the touch calibration routine to get the correct values for your screen
+  uint16_t calData[5] = { 288, 3622, 220, 3652, 5 }; 
   tft.setTouch((uint16_t *)calData);
 
   //*********************************

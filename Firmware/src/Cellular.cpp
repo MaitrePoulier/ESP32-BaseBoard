@@ -23,21 +23,6 @@ int getNumberOfNeighbors(int, int);
 
 
 
-void ScreenInit(void){
-  //Set up the display
-  tft.init();
-  tft.initDMA(); 
-  //ADD THIS LINE TO FIX DMA COLORS
-  //Maybe I will have color problem when I use something else than LVGL routine
-  tft.setSwapBytes(true); 
-  
-  tft.setRotation(1);
-  tft.fillScreen(TFT_BLACK);
-  tft.setTextSize(1);
-  tft.setTextColor(TFT_WHITE);
-  tft.setCursor(0, 0);
-}
-
 void game(const char* text){
     if (gen == 0)
     {

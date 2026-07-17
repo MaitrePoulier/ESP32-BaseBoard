@@ -10,5 +10,7 @@
     void create_test_ui(void); 
 
     uint32_t my_tick(void);
+    void ScreenInit(void);
+    void touch_calibrate(void);
 
 #endif

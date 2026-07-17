@@ -12,6 +12,5 @@
     #define NUMGEN 600
     
     void game(const char*);
-    void ScreenInit(void);
 
 #endif
