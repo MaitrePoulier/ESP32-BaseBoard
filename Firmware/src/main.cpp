@@ -7,17 +7,28 @@
 #include "s3.h"
 #include "Cellular.h"
 #include "Batt.h"
-#include "esp_adc_cal.h"
+#include "adc_cali_schemes.h"
 
 // LVGL specific
 #include "lvgl.h"
 #define  LV_CONF_INCLUDE_SIMPLE
+#include "Lvgl_code.h"
+#include "demos/lv_demos.h"
 
 
 // Hardware-specific library for the TFT screen
 #include <SPI.h>
 #include <TFT_eSPI.h> 
 TFT_eSPI tft = TFT_eSPI();       // Invoke custom library
+
+static lv_disp_t * disp;
+static lv_indev_t * indev; // LVGL input device handle
+static lv_color_t *buf1 = nullptr;
+static lv_color_t *buf2 = nullptr;
+
+//#define LV_USE_DRAW_SW 1
+//#define LV_DRAW_SW_COMPLEX 1
+
 
 
 /********************* Console **************************************/
@@ -70,8 +81,49 @@ void setup() {
 
   printf("\r\n> ");
 
-  //Set up the display
+  //*************************
+  // Set up the display
   ScreenInit();
+
+  uint16_t calData[5] = { 250, 3600, 300, 3500, 5 }; 
+  tft.setTouch((uint16_t *)calData);
+
+  //*********************************
+  // Initialize LVGL
+  // 1. Calculate buffer size in pixels and bytes
+  uint32_t buf_pixel_count = SCREEN_WIDTH * (SCREEN_HEIGHT / 10);
+  uint32_t buf_byte_size = buf_pixel_count * sizeof(lv_color_t);
+
+  // 2. Allocate dynamically from fast internal DMA memory
+  buf1 = (lv_color_t *)heap_caps_malloc(buf_byte_size, MALLOC_CAP_DMA | MALLOC_CAP_INTERNAL);
+  buf2 = (lv_color_t *)heap_caps_malloc(buf_byte_size, MALLOC_CAP_DMA | MALLOC_CAP_INTERNAL);
+
+
+  // 3. Fallback check to ensure allocation succeeded
+  if (buf1 == nullptr || buf2 == nullptr) {
+      Serial.println("Critical Error: DMA Buffer allocation failed!");
+      while(1) { vTaskDelay(1000 / portTICK_RATE_MS); }
+  }
+
+  lv_init();
+
+  lv_tick_set_cb(my_tick);
+  
+  // Create display 
+  disp = lv_display_create(SCREEN_WIDTH, SCREEN_HEIGHT); 
+  lv_display_set_flush_cb(disp, my_flush_cb);
+  // Change sizeof(buf1) to buf_byte_size
+  lv_display_set_buffers(disp, buf1, buf2, buf_byte_size, LV_DISPLAY_RENDER_MODE_PARTIAL);
+
+  // Setup Touch Input
+  indev = lv_indev_create();
+  lv_indev_set_type(indev, LV_INDEV_TYPE_POINTER);
+  lv_indev_set_read_cb(indev, my_touchpad_read);
+
+  //create_test_ui();
+  lv_demo_benchmark(); 
+
+  //**************************
 
   // Set 12-bit resolution (0-4095)
   analogSetWidth(12);
@@ -82,16 +134,17 @@ void setup() {
 
 void loop() 
 {
-  char buffer[10];
+  /*char buffer[10];
   float VBatt, ChargeBatt;
   VBatt = (float)(analogReadMilliVolts(BattPin) * 2.0 * CALIBRATION_FACTOR / 1000.0);
   ChargeBatt = getBatteryPercentage(VBatt);
-
   sprintf(buffer, "Batt: %.2fV - %.0f%%",VBatt,ChargeBatt);
+  game(buffer);*/
 
-  game(buffer);
-  vTaskDelay(10/portTICK_RATE_MS);
+  // Let the GUI do its work
+  lv_timer_handler(); 
 
+  //vTaskDelay(5/portTICK_RATE_MS);
   
   int Input_char;
   char argument[10];

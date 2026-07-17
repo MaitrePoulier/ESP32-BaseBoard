@@ -192,8 +192,8 @@
 // For ESP32 Dev board (only tested with ILI9341 display)
 // The hardware SPI can be mapped to any pins
 
-#define TFT_WIDTH  320
-#define TFT_HEIGHT 480
+#define TFT_WIDTH  480
+#define TFT_HEIGHT 320
 
 #define TFT_MISO  19
 #define TFT_MOSI  23
@@ -328,7 +328,7 @@
 // The display controller data sheet will specify the minimum write cycle period. The
 // controllers often work reliably for shorter periods, however if the period is too short
 // the display may not initialise or graphics will become corrupted.
-// PIO write cycle frequency = (CPU clock/(4 * RP2040_PIO_CLK_DIV))
+// PIO write cycle frequency = (CPU clock/(4 * RP2040_PIO_CLK_DIV))xpt
 //#define RP2040_PIO_CLK_DIV 1 // 32ns write cycle at 125MHz CPU clock
 //#define RP2040_PIO_CLK_DIV 2 // 64ns write cycle at 125MHz CPU clock
 //#define RP2040_PIO_CLK_DIV 3 // 96ns write cycle at 125MHz CPU clock

@@ -27,7 +27,11 @@ void ScreenInit(void){
   //Set up the display
   tft.init();
   tft.initDMA(); 
-  tft.setRotation(3);
+  //ADD THIS LINE TO FIX DMA COLORS
+  //Maybe I will have color problem when I use something else than LVGL routine
+  tft.setSwapBytes(true); 
+  
+  tft.setRotation(1);
   tft.fillScreen(TFT_BLACK);
   tft.setTextSize(1);
   tft.setTextColor(TFT_WHITE);
