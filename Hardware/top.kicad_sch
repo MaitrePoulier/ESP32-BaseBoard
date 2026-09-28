@@ -1,0 +1,467 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "34bedd60-40e8-471b-bcd6-dd806127e030")
+	(paper "A4")
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 160.02 55.88) (xy 172.72 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2796da9a-7a21-4ed5-9d06-2817eedb5d84")
+	)
+	(wire
+		(pts
+			(xy 160.02 69.85) (xy 172.72 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38ea144a-ab99-41fa-903f-8bd6d559ce73")
+	)
+	(wire
+		(pts
+			(xy 160.02 72.39) (xy 172.72 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e98de9e-bd35-4618-9ea7-d3ad8eaa00d9")
+	)
+	(wire
+		(pts
+			(xy 160.02 118.11) (xy 172.72 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b203065-c01e-4ff5-9edb-f9462423848b")
+	)
+	(wire
+		(pts
+			(xy 160.02 115.57) (xy 172.72 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93938213-64e9-4577-8fe0-05b5c67bd987")
+	)
+	(wire
+		(pts
+			(xy 160.02 78.74) (xy 172.72 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b18eb420-a60e-49a3-a408-e53eb15ed323")
+	)
+	(bus
+		(pts
+			(xy 160.02 53.34) (xy 172.72 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1d5f528-7633-4461-9415-3852b71ec91f")
+	)
+	(bus
+		(pts
+			(xy 160.02 93.98) (xy 172.72 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d84d3599-56f3-4c4c-923b-343f162e505b")
+	)
+	(wire
+		(pts
+			(xy 160.02 76.2) (xy 172.72 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4baecba-7e95-4187-85e4-8d5c7671bcae")
+	)
+	(sheet
+		(at 138.43 46.99)
+		(size 21.59 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2237552a-455d-4ac3-8a7b-2b14a3b9afb4")
+		(property "Sheetname" "Screen"
+			(at 138.43 46.1514 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "screen.kicad_sch"
+			(at 138.43 83.2362 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RGB-LCD" input
+			(at 160.02 53.34 0)
+			(uuid "e718efea-c2c8-4334-9e2e-1891c702f0b9")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI-LCD" bidirectional
+			(at 160.02 55.88 0)
+			(uuid "955cdb0a-fdcf-4580-9b94-9706efcf4ac7")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "Touch-INT" output
+			(at 160.02 69.85 0)
+			(uuid "e552c5c7-5662-4d2f-a64a-8178ab323e6b")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "Touch-RST" input
+			(at 160.02 72.39 0)
+			(uuid "82ca0f10-5079-4423-850e-3d8eb57f5bbf")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "Touch-SCL" input
+			(at 160.02 76.2 0)
+			(uuid "cd106cc6-6434-420b-b130-3eb34ac15c01")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "Touch-SDA" bidirectional
+			(at 160.02 78.74 0)
+			(uuid "27257d8e-c684-4b1e-be25-fd14a87934f0")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "esp32-V2"
+				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 138.43 111.76)
+		(size 21.59 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "45d18cef-221f-4840-9d47-4fa51498f5ac")
+		(property "Sheetname" "USB and Cells"
+			(at 138.43 110.9214 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "powersource.kicad_sch"
+			(at 138.43 125.1462 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB-Dn" bidirectional
+			(at 160.02 118.11 0)
+			(uuid "692d0f58-c511-4e7e-a79a-de1b787928cc")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB-Dp" bidirectional
+			(at 160.02 115.57 0)
+			(uuid "4d857803-55a6-4744-93a3-02e681cb169d")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "esp32-V2"
+				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 172.72 49.53)
+		(size 45.72 82.55)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "70414f53-588f-4a4a-b5a5-2152d4a63cd4")
+		(property "Sheetname" "ESP32-S31"
+			(at 172.72 48.6914 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp32-V2.kicad_sch"
+			(at 172.72 132.7662 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RGB-LCD" input
+			(at 172.72 53.34 180)
+			(uuid "8efdd06f-8482-4f1e-bfe7-4afa5a0832b7")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI-LCD" bidirectional
+			(at 172.72 55.88 180)
+			(uuid "168841a3-e9a3-4287-b547-c48e3db2a0bc")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "Touch-INT" input
+			(at 172.72 69.85 180)
+			(uuid "27fc2a45-0cd4-44c0-8508-21650e67111f")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "Touch-RST" output
+			(at 172.72 72.39 180)
+			(uuid "8ca3ea7e-bab7-4047-82dd-2d40767c1a6c")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "uSD" bidirectional
+			(at 172.72 93.98 180)
+			(uuid "f424a2ca-181b-46d0-8d49-24addf9f122f")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C1-SDA" bidirectional
+			(at 172.72 78.74 180)
+			(uuid "72d25522-3aff-4ac3-bad5-0bc39a150bf6")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB-Dn" bidirectional
+			(at 172.72 118.11 180)
+			(uuid "72e63189-e47b-4388-bf65-74aedf6c5697")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB-Dp" bidirectional
+			(at 172.72 115.57 180)
+			(uuid "893b13c3-a633-40b2-84b6-9808d0c7b4a2")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C1-SCL" output
+			(at 172.72 76.2 180)
+			(uuid "b33b1258-b88a-4fb2-b56e-3f9829e02ec0")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "esp32-V2"
+				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 138.43 90.17)
+		(size 21.59 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "90fb081b-c808-4d88-91aa-e417d2abcc14")
+		(property "Sheetname" "uSD"
+			(at 138.43 89.3314 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "uSD.kicad_sch"
+			(at 138.43 102.2862 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(pin "uSD" bidirectional
+			(at 160.02 93.98 0)
+			(uuid "fdd8369e-cde8-4d9c-8a19-ba4d805664bc")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "esp32-V2"
+				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

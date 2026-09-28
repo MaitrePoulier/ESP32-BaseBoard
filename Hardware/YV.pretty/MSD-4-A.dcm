@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MSD-4-A
+D Micro SD Card Connector, 9 Contacts, Connector and Ejector, Push In, Auto Eject Out, Surface Mount, 1.8 mm Height Above Board, Gold Flash
+K
+F https://www.sameskydevices.com/product/resource/msd-4-a.pdf
+$ENDCMP
+#
+#End Doc Library

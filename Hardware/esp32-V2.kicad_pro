@@ -262,7 +262,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "1.0"
+      "sch_revision": ""
     },
     "layer_pairs": [],
     "layer_presets": [
@@ -579,7 +579,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "esp32bb.kicad_pro",
+    "filename": "esp32-V2.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -1063,7 +1063,30 @@
       "sort_asc": true,
       "sort_field": "${EXCLUDE_FROM_BOM}"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "RGB-LCD": [
+        "DS[23..0]",
+        "PCLK",
+        "HS",
+        "VS",
+        "DE"
+      ],
+      "SPI-LCD": [
+        "SD0",
+        "CS",
+        "SCL",
+        "SDA",
+        "RST"
+      ],
+      "uSD": [
+        "DATA0",
+        "DATA1",
+        "DATA2",
+        "DATA3",
+        "CLK",
+        "CMD"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -1100,27 +1123,43 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "esp32bb.kicad_sch",
-        "name": "ESP32",
-        "uuid": "0517dd22-de94-4a8b-9b76-2b5b6fdb2923"
+        "filename": "power.kicad_sch",
+        "name": "DC-DC",
+        "uuid": "a6b0987b-7dd7-4bfb-9d68-8cd9c75369c1"
       },
       {
-        "filename": "power.kicad_sch",
-        "name": "Power",
-        "uuid": "a6b0987b-7dd7-4bfb-9d68-8cd9c75369c1"
+        "filename": "top.kicad_sch",
+        "name": "Top",
+        "uuid": "cee18f8d-8618-44b5-96f4-3f3967d85a92"
       }
     ],
-    "used_designators": "",
+    "used_designators": "L4,L8,SW1,SW3-5,J1-15,Q1-2,U1,U3-4,U6,U8,#PWR11,#PWR15,#PWR20,#PWR22-25,#PWR27-41,#PWR44,#PWR68,#PWR70-80,D2,D4-8,C1,C7-11,C14,C25-33,R4-16,R21-37,JP1-8",
     "variants": []
   },
   "sheets": [
     [
-      "0517dd22-de94-4a8b-9b76-2b5b6fdb2923",
-      "ESP32"
+      "cee18f8d-8618-44b5-96f4-3f3967d85a92",
+      "Top"
+    ],
+    [
+      "70414f53-588f-4a4a-b5a5-2152d4a63cd4",
+      "ESP32-S31"
+    ],
+    [
+      "2237552a-455d-4ac3-8a7b-2b14a3b9afb4",
+      "Screen"
+    ],
+    [
+      "90fb081b-c808-4d88-91aa-e417d2abcc14",
+      "uSD"
+    ],
+    [
+      "45d18cef-221f-4840-9d47-4fa51498f5ac",
+      "USB and Cells"
     ],
     [
       "a6b0987b-7dd7-4bfb-9d68-8cd9c75369c1",
-      "Power"
+      "DC-DC"
     ]
   ],
   "text_variables": {},

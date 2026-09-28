@@ -4,6 +4,7 @@ Small update:
     SilkScreen should say 18650 cell
     Add a fuel gauge, like the MAX17260
     Augment the resistor in series with the 2 leds of the cell charger
+    Add a fuse at the output of the battery
 
 
 Big update: (wish)

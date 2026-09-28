@@ -192,6 +192,8 @@
 // For ESP32 Dev board (only tested with ILI9341 display)
 // The hardware SPI can be mapped to any pins
 
+#define USE_DMA_TO_TFT
+
 #define SCREEN_WIDTH   480
 #define SCREEN_HEIGHT  320
 
