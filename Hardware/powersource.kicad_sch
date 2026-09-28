@@ -3344,6 +3344,169 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "YV-library:Fuse-BSMD1812-300-16V"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BSMD1812-300-16V"
+				(at -1.905 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://xonstorage.z8.web.core.windows.net/pdf/bhfuse_bsmd181230016v_apr22_xonlink.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resettable Fuses, 3A I Hold, 6A I Trip, 10 mOhms, ROHS, -40℃~+85℃"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C883162"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Fuse-BSMD1812-300-16V_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse-BSMD1812-300-16V_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "YV-library:RES47R0M-00"
 			(pin_numbers
 				(hide yes)
@@ -3489,6 +3652,194 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "YV-library:TVS-BSDFN2C031U"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BSDFN2C031U"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_JLCPCB:D_DFN1006-2L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://xonstorage.z8.web.core.windows.net/pdf/bourne_bsdfn2c031u_xonjuly20_12_link.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "0.65pF 3.3V 500nA 50W@8/20us TVS, 6.2V, 7A@8/20us, Bidirectional, IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 DFN1006-2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PartNumber" "BSDFN2C031U"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C600818"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode TVS thyrector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TVS-BSDFN2C031U_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TVS-BSDFN2C031U_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3799,7 +4150,7 @@
 	)
 	(text "LiFePO4 BATTERIES"
 		(exclude_from_sim no)
-		(at 28.702 85.598 0)
+		(at 28.702 72.898 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3841,23 +4192,13 @@
 	)
 	(text "2x18650 cell\n3.2V LiFePO4"
 		(exclude_from_sim no)
-		(at 37.338 95.25 0)
+		(at 37.338 82.55 0)
 		(effects
 			(font
 				(size 1.524 1.524)
 			)
 		)
 		(uuid "ae2407d2-9095-46cc-99bb-e4f1b7614abd")
-	)
-	(text "Fuse"
-		(exclude_from_sim no)
-		(at 32.258 103.886 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-			)
-		)
-		(uuid "b9b9e779-3041-4b95-bf37-bddbeacbdc71")
 	)
 	(text "battery charger"
 		(exclude_from_sim no)
@@ -3898,6 +4239,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0da9c2f8-a1f6-4dae-9265-5e312d163bb1")
+	)
+	(junction
+		(at 71.12 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19bcbdcf-cbdd-4756-892c-572862720ebc")
 	)
 	(junction
 		(at 193.04 127)
@@ -3984,7 +4331,7 @@
 		(uuid "65aa58d3-a33d-4070-9084-c205f174a911")
 	)
 	(junction
-		(at 26.67 99.06)
+		(at 26.67 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69ac0cc4-82b9-4ca1-bb84-a937fc297145")
@@ -4032,6 +4379,12 @@
 		(uuid "b61193a0-f512-4de9-81a1-4ef5688b9ca1")
 	)
 	(junction
+		(at 71.12 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b63a05fb-134f-468a-a754-cc474cdd5324")
+	)
+	(junction
 		(at 121.92 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4048,6 +4401,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be1d2482-5674-47b9-a9f7-51ab3c9ca1c3")
+	)
+	(junction
+		(at 67.31 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1bb58a8-e66b-4da8-8880-7cbf60d6b54d")
 	)
 	(junction
 		(at 132.08 59.69)
@@ -4155,7 +4514,17 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 152.4) (xy 53.34 152.4)
+			(xy 67.31 185.42) (xy 67.31 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05fdd949-7179-49c9-8443-88433e75373b")
+	)
+	(wire
+		(pts
+			(xy 46.99 152.4) (xy 49.53 152.4)
 		)
 		(stroke
 			(width 0)
@@ -4265,6 +4634,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 97.79) (xy 26.67 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19bea22c-33cb-4a06-9cae-6d2f05917452")
+	)
+	(wire
+		(pts
 			(xy 73.66 113.03) (xy 83.82 113.03)
 		)
 		(stroke
@@ -4292,6 +4671,16 @@
 			(type default)
 		)
 		(uuid "1f6ba19c-a1f3-4ed7-9c0a-423b85840158")
+	)
+	(wire
+		(pts
+			(xy 67.31 186.69) (xy 71.12 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21278eed-0804-4ae4-991b-681f2b073d66")
 	)
 	(wire
 		(pts
@@ -4425,6 +4814,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 186.69) (xy 71.12 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41d43e56-7621-4d5f-b3d1-3f181cf20074")
+	)
+	(wire
+		(pts
 			(xy 77.47 52.07) (xy 73.66 52.07)
 		)
 		(stroke
@@ -4445,7 +4844,17 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 99.06) (xy 35.56 99.06)
+			(xy 57.15 152.4) (xy 63.5 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4788e35f-ef8e-497f-ba51-dc528e91314d")
+	)
+	(wire
+		(pts
+			(xy 26.67 86.36) (xy 35.56 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4512,6 +4921,16 @@
 			(type default)
 		)
 		(uuid "526631af-b1c8-461b-8d69-e1c250e48104")
+	)
+	(wire
+		(pts
+			(xy 71.12 185.42) (xy 71.12 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5805f2b1-d59c-44fa-a0c9-046247a854bd")
 	)
 	(wire
 		(pts
@@ -4605,7 +5024,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 96.52) (xy 26.67 99.06)
+			(xy 26.67 83.82) (xy 26.67 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4615,7 +5034,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 99.06) (xy 26.67 101.6)
+			(xy 26.67 86.36) (xy 26.67 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4632,6 +5051,26 @@
 			(type default)
 		)
 		(uuid "82ebbcef-9d8e-43f6-b864-3bb5f6783e44")
+	)
+	(wire
+		(pts
+			(xy 67.31 172.72) (xy 74.93 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86f07d8c-ecdd-4f45-a7fd-337c5b10589f")
+	)
+	(wire
+		(pts
+			(xy 35.56 97.79) (xy 35.56 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87165d92-a3ad-4af2-9683-d75eb8f926b6")
 	)
 	(wire
 		(pts
@@ -4785,6 +5224,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 167.64) (xy 71.12 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9be303b4-37d3-4c77-bb55-ad3aa3f6c832")
+	)
+	(wire
+		(pts
 			(xy 124.46 58.42) (xy 124.46 59.69)
 		)
 		(stroke
@@ -4935,7 +5384,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 152.4) (xy 53.34 147.32)
+			(xy 63.5 152.4) (xy 63.5 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5045,7 +5494,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 167.64) (xy 74.93 167.64)
+			(xy 64.77 167.64) (xy 71.12 167.64)
 		)
 		(stroke
 			(width 0)
@@ -5075,7 +5524,17 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 99.06) (xy 35.56 101.6)
+			(xy 71.12 167.64) (xy 74.93 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d17273a7-efae-4fb2-83a3-466116084a0e")
+	)
+	(wire
+		(pts
+			(xy 35.56 86.36) (xy 35.56 90.17)
 		)
 		(stroke
 			(width 0)
@@ -5185,7 +5644,17 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 172.72) (xy 74.93 172.72)
+			(xy 67.31 172.72) (xy 67.31 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4127cc0-6e37-4e79-a4fb-9ccf527ba20e")
+	)
+	(wire
+		(pts
+			(xy 64.77 172.72) (xy 67.31 172.72)
 		)
 		(stroke
 			(width 0)
@@ -5576,6 +6045,111 @@
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/45d18cef-221f-4840-9d47-4fa51498f5ac"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YV-library:TVS-BSDFN2C031U")
+		(at 71.12 181.61 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "07f2c9d1-410b-45be-9d7c-cc5af05d99cb")
+		(property "Reference" "D14"
+			(at 70.104 174.752 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BSDFN2C031U"
+			(at 68.58 182.8799 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:D_DFN1006-2L"
+			(at 71.12 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://xonstorage.z8.web.core.windows.net/pdf/bourne_bsdfn2c031u_xonjuly20_12_link.pdf"
+			(at 71.12 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.65pF 3.3V 500nA 50W@8/20us TVS, 6.2V, 7A@8/20us, Bidirectional, IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 DFN1006-2"
+			(at 71.12 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNumber" "BSDFN2C031U"
+			(at 71.12 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C600818"
+			(at 71.12 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5ebcd2d3-54c3-4628-90d1-ff6ad573542f")
+		)
+		(pin "1"
+			(uuid "9c85fc87-29e0-41d8-9f4d-3b57d6dd2f86")
+		)
+		(instances
+			(project "esp32-V2"
+				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/45d18cef-221f-4840-9d47-4fa51498f5ac"
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -6142,6 +6716,110 @@
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/45d18cef-221f-4840-9d47-4fa51498f5ac"
 					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YV-library:TVS-BSDFN2C031U")
+		(at 67.31 181.61 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1eaaacc6-60fc-4f16-8d46-15c721239a5a")
+		(property "Reference" "D13"
+			(at 66.294 174.752 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BSDFN2C031U"
+			(at 64.77 182.8799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:D_DFN1006-2L"
+			(at 67.31 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://xonstorage.z8.web.core.windows.net/pdf/bourne_bsdfn2c031u_xonjuly20_12_link.pdf"
+			(at 67.31 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.65pF 3.3V 500nA 50W@8/20us TVS, 6.2V, 7A@8/20us, Bidirectional, IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 DFN1006-2"
+			(at 67.31 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNumber" "BSDFN2C031U"
+			(at 67.31 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C600818"
+			(at 67.31 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b8828677-caa2-4f8c-8df6-d8c53e38bdbc")
+		)
+		(pin "1"
+			(uuid "a08a1130-db9e-4232-ba9e-23a773cf9528")
+		)
+		(instances
+			(project "esp32-V2"
+				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/45d18cef-221f-4840-9d47-4fa51498f5ac"
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -7363,6 +8041,98 @@
 		)
 	)
 	(symbol
+		(lib_id "YV-library:Fuse-BSMD1812-300-16V")
+		(at 53.34 152.4 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5fdd8e13-052b-4181-b86d-802e23ba9cf5")
+		(property "Reference" "F3"
+			(at 58.928 151.384 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSMD1812-300-16V"
+			(at 76.962 153.67 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
+			(at 53.34 154.178 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://xonstorage.z8.web.core.windows.net/pdf/bhfuse_bsmd181230016v_apr22_xonlink.pdf"
+			(at 53.34 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resettable Fuses, 3A I Hold, 6A I Trip, 10 mOhms, ROHS, -40℃~+85℃"
+			(at 53.34 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C883162"
+			(at 53.34 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "284a6b2c-a4bd-437b-adef-1b8306608569")
+		)
+		(pin "1"
+			(uuid "eae6aff5-244d-4d5d-bf63-13751d2f32e8")
+		)
+		(instances
+			(project "esp32-V2"
+				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/45d18cef-221f-4840-9d47-4fa51498f5ac"
+					(reference "F3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "YV-library:Batt-18650")
 		(at 35.56 110.49 90)
 		(unit 1)
@@ -7466,7 +8236,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 26.67 96.52 0)
+		(at 26.67 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7477,7 +8247,7 @@
 		(fields_autoplaced yes)
 		(uuid "63c5c3db-97d1-41c9-9100-f172e6ea7894")
 		(property "Reference" "#PWR031"
-			(at 26.67 100.33 0)
+			(at 26.67 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7488,7 +8258,7 @@
 			)
 		)
 		(property "Value" "Vbatt"
-			(at 26.67 91.44 0)
+			(at 26.67 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7498,7 +8268,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 96.52 0)
+			(at 26.67 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7509,7 +8279,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 96.52 0)
+			(at 26.67 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7520,7 +8290,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 26.67 96.52 0)
+			(at 26.67 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7640,6 +8410,85 @@
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/45d18cef-221f-4840-9d47-4fa51498f5ac"
 					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 71.12 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b021882-1b14-430b-ac0d-3baa978a0a1c")
+		(property "Reference" "#PWR066"
+			(at 71.12 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.12 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "389cf696-41f1-4b0f-bec8-46062f0c28a0")
+		)
+		(instances
+			(project "esp32-V2"
+				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/45d18cef-221f-4840-9d47-4fa51498f5ac"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -7935,7 +8784,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 53.34 147.32 0)
+		(at 63.5 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7946,7 +8795,7 @@
 		(fields_autoplaced yes)
 		(uuid "8434ab17-f1b7-46aa-a6fa-e772b9e51a3c")
 		(property "Reference" "#PWR035"
-			(at 53.34 151.13 0)
+			(at 63.5 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7957,7 +8806,7 @@
 			)
 		)
 		(property "Value" "V-USB"
-			(at 53.34 142.24 0)
+			(at 63.5 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7967,7 +8816,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 147.32 0)
+			(at 63.5 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7978,7 +8827,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 147.32 0)
+			(at 63.5 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7989,7 +8838,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 53.34 147.32 0)
+			(at 63.5 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9454,6 +10303,98 @@
 		)
 	)
 	(symbol
+		(lib_id "YV-library:Fuse-BSMD1812-300-16V")
+		(at 26.67 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c6b54cf7-a4b3-4efe-9911-a1245b5dbf23")
+		(property "Reference" "F2"
+			(at 29.21 92.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSMD1812-300-16V"
+			(at 24.384 101.346 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
+			(at 24.892 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://xonstorage.z8.web.core.windows.net/pdf/bhfuse_bsmd181230016v_apr22_xonlink.pdf"
+			(at 26.67 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resettable Fuses, 3A I Hold, 6A I Trip, 10 mOhms, ROHS, -40℃~+85℃"
+			(at 26.67 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C883162"
+			(at 26.67 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "34338a3a-13ec-4d52-8394-b3b06d192c4a")
+		)
+		(pin "1"
+			(uuid "c93dd292-f042-4b07-9800-b543e2f0b164")
+		)
+		(instances
+			(project "esp32-V2"
+				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/45d18cef-221f-4840-9d47-4fa51498f5ac"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 193.04 124.46 0)
 		(unit 1)
@@ -9875,6 +10816,100 @@
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/45d18cef-221f-4840-9d47-4fa51498f5ac"
 					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YV-library:Fuse-BSMD1812-300-16V")
+		(at 35.56 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd78d21d-22d7-4be8-af3b-8ed0690ecbb8")
+		(property "Reference" "F1"
+			(at 38.1 92.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSMD1812-300-16V"
+			(at 38.1 95.2499 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
+			(at 33.782 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://xonstorage.z8.web.core.windows.net/pdf/bhfuse_bsmd181230016v_apr22_xonlink.pdf"
+			(at 35.56 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resettable Fuses, 3A I Hold, 6A I Trip, 10 mOhms, ROHS, -40℃~+85℃"
+			(at 35.56 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C883162"
+			(at 35.56 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b8ea3282-ee87-4c46-b34d-b44a169b942a")
+		)
+		(pin "1"
+			(uuid "a50c546c-94eb-457e-98f0-48cf52d35c27")
+		)
+		(instances
+			(project "esp32-V2"
+				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/45d18cef-221f-4840-9d47-4fa51498f5ac"
+					(reference "F1")
 					(unit 1)
 				)
 			)
