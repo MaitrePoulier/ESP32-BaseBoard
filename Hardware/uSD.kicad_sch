@@ -4,6 +4,13 @@
 	(generator_version "10.0")
 	(uuid "4f6e5d40-15ec-4b77-a387-04b33a2e7559")
 	(paper "A4")
+	(title_block
+		(title "Strain Gauge Data Logger")
+		(date "2026-10-01")
+		(rev "1")
+		(company "Motion Composites")
+		(comment 1 "by Yannick Vallée, ing.")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -1061,13 +1068,13 @@
 		)
 	)
 	(junction
-		(at 104.14 123.19)
+		(at 104.14 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08021532-1ac7-44bf-8d0a-c59992af266f")
 	)
 	(junction
-		(at 107.95 123.19)
+		(at 107.95 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1ced22aa-b056-4be9-aea0-df226a12d96a")
@@ -1079,7 +1086,7 @@
 		(uuid "2573c4b7-7eca-46a0-b118-e4e484ef4b13")
 	)
 	(junction
-		(at 123.19 123.19)
+		(at 123.19 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f1069f2-b576-4906-893f-58426e10b6fb")
@@ -1091,7 +1098,7 @@
 		(uuid "601e30d4-4593-4979-af2f-08e28adeaeab")
 	)
 	(junction
-		(at 115.57 123.19)
+		(at 115.57 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7857b2b4-7c11-4265-9e1a-0e8026f350ff")
@@ -1103,7 +1110,7 @@
 		(uuid "798e6bf0-6aba-4c0d-b000-dc3fe91b1d08")
 	)
 	(junction
-		(at 111.76 123.19)
+		(at 111.76 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a8d8c4c-c44b-481f-a0ce-31ce5b1afe30")
@@ -1151,7 +1158,7 @@
 		(uuid "da9e51fa-8680-4072-a869-97fb41662369")
 	)
 	(junction
-		(at 119.38 123.19)
+		(at 119.38 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4ef05e8-0dfa-46bb-ac3d-4c5d9ff19968")
@@ -1167,7 +1174,7 @@
 		(uuid "631bc5f2-5ce6-4c3f-b3e2-062c5d2eb7ff")
 	)
 	(bus_entry
-		(at 87.63 105.41)
+		(at 81.28 105.41)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1176,7 +1183,7 @@
 		(uuid "40d0825b-3930-4172-a1f3-bebb17d4f876")
 	)
 	(bus_entry
-		(at 87.63 100.33)
+		(at 81.28 100.33)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1185,7 +1192,7 @@
 		(uuid "534745b5-6ee0-457e-8223-0da977bbe5e0")
 	)
 	(bus_entry
-		(at 87.63 95.25)
+		(at 81.28 95.25)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1194,7 +1201,7 @@
 		(uuid "734e7bad-4c85-481f-9866-7f2f9d3613f3")
 	)
 	(bus_entry
-		(at 87.63 107.95)
+		(at 81.28 107.95)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1203,7 +1210,7 @@
 		(uuid "8246e17f-3554-46b4-83f9-ff874cb8ac6f")
 	)
 	(bus_entry
-		(at 87.63 92.71)
+		(at 81.28 92.71)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1212,7 +1219,7 @@
 		(uuid "b8bc1d4e-7c92-4eb2-8e55-b37fd4afb24f")
 	)
 	(bus_entry
-		(at 87.63 90.17)
+		(at 81.28 90.17)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1222,7 +1229,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 123.19) (xy 111.76 123.19)
+			(xy 107.95 128.27) (xy 111.76 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1232,7 +1239,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 123.19) (xy 123.19 124.46)
+			(xy 123.19 128.27) (xy 123.19 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1242,7 +1249,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 123.19) (xy 123.19 123.19)
+			(xy 119.38 128.27) (xy 123.19 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1252,7 +1259,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 121.92) (xy 104.14 123.19)
+			(xy 104.14 127) (xy 104.14 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1262,7 +1269,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 123.19) (xy 119.38 123.19)
+			(xy 115.57 128.27) (xy 119.38 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1282,17 +1289,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 92.71) (xy 119.38 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f118012-ab84-4817-9a9a-02fd4f333349")
-	)
-	(wire
-		(pts
-			(xy 90.17 110.49) (xy 100.33 110.49)
+			(xy 83.82 110.49) (xy 100.33 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1302,17 +1299,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 114.3) (xy 107.95 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37b79f3c-901a-48a2-9c7c-10cad42f70a1")
-	)
-	(wire
-		(pts
-			(xy 111.76 121.92) (xy 111.76 123.19)
+			(xy 111.76 127) (xy 111.76 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1322,13 +1309,23 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 121.92) (xy 115.57 123.19)
+			(xy 115.57 127) (xy 115.57 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "49bc8355-3a6a-4995-b50f-719122181c9c")
+	)
+	(wire
+		(pts
+			(xy 123.19 100.33) (xy 123.19 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ba9651e-ce2e-46ac-a7e8-f4b2ef2632f7")
 	)
 	(wire
 		(pts
@@ -1352,7 +1349,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 123.19) (xy 107.95 123.19)
+			(xy 104.14 128.27) (xy 107.95 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1362,7 +1359,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 121.92) (xy 100.33 123.19)
+			(xy 100.33 127) (xy 100.33 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1382,23 +1379,13 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 123.19) (xy 115.57 123.19)
+			(xy 111.76 128.27) (xy 115.57 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "53d09c3d-bc2f-4159-8971-5366123e95c4")
-	)
-	(wire
-		(pts
-			(xy 115.57 95.25) (xy 115.57 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5eaf16f5-638b-468b-9729-537ea9857fa1")
 	)
 	(wire
 		(pts
@@ -1412,7 +1399,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 107.95) (xy 104.14 107.95)
+			(xy 83.82 107.95) (xy 104.14 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1432,7 +1419,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 123.19) (xy 104.14 123.19)
+			(xy 100.33 128.27) (xy 104.14 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1452,7 +1439,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 102.87) (xy 107.95 102.87)
+			(xy 83.82 102.87) (xy 107.95 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1472,7 +1459,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 97.79) (xy 111.76 97.79)
+			(xy 83.82 97.79) (xy 111.76 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1482,7 +1469,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 121.92) (xy 119.38 123.19)
+			(xy 119.38 127) (xy 119.38 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1492,7 +1479,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 121.92) (xy 123.19 123.19)
+			(xy 123.19 127) (xy 123.19 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1510,19 +1497,9 @@
 		)
 		(uuid "95473b32-1bc2-44fb-abf3-9ae038c39818")
 	)
-	(wire
-		(pts
-			(xy 123.19 114.3) (xy 123.19 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "959e9505-46c9-4019-a54e-3e9af0de0085")
-	)
 	(bus
 		(pts
-			(xy 67.31 90.17) (xy 87.63 90.17)
+			(xy 60.96 90.17) (xy 81.28 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1532,7 +1509,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 97.79) (xy 111.76 114.3)
+			(xy 111.76 97.79) (xy 111.76 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1562,7 +1539,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 114.3) (xy 104.14 107.95)
+			(xy 104.14 107.95) (xy 104.14 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1592,7 +1569,17 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 121.92) (xy 107.95 123.19)
+			(xy 107.95 102.87) (xy 107.95 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1f5aa01-348d-4dcf-94ff-60dffc9b5299")
+	)
+	(wire
+		(pts
+			(xy 107.95 127) (xy 107.95 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1622,7 +1609,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 95.25) (xy 115.57 95.25)
+			(xy 83.82 95.25) (xy 115.57 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1642,7 +1629,17 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 92.71) (xy 119.38 92.71)
+			(xy 119.38 92.71) (xy 119.38 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d64d4512-e634-443d-8952-23ac896b9d40")
+	)
+	(wire
+		(pts
+			(xy 83.82 92.71) (xy 119.38 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1682,7 +1679,7 @@
 	)
 	(bus
 		(pts
-			(xy 87.63 90.17) (xy 87.63 107.95)
+			(xy 81.28 90.17) (xy 81.28 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1722,7 +1719,17 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 114.3) (xy 100.33 110.49)
+			(xy 115.57 95.25) (xy 115.57 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd788796-e646-47de-bca3-e3f2632c1362")
+	)
+	(wire
+		(pts
+			(xy 100.33 110.49) (xy 100.33 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1731,7 +1738,7 @@
 		(uuid "ff4a93e2-0fa7-4f00-bb77-7e4db024ffa5")
 	)
 	(label "{uSD}"
-		(at 72.39 90.17 0)
+		(at 66.04 90.17 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -1802,7 +1809,7 @@
 	)
 	(hierarchical_label "uSD"
 		(shape bidirectional)
-		(at 67.31 90.17 180)
+		(at 60.96 90.17 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -1813,7 +1820,7 @@
 	)
 	(symbol
 		(lib_id "YV-library:TVS-BSDFN2C031U")
-		(at 115.57 118.11 270)
+		(at 115.57 123.19 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -1824,7 +1831,7 @@
 		(dnp no)
 		(uuid "0e7bc0bd-5956-4f7a-9158-6ae6fe41232b")
 		(property "Reference" "D10"
-			(at 114.3 111.252 0)
+			(at 114.3 116.332 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1835,7 +1842,7 @@
 			)
 		)
 		(property "Value" "BSDFN2C031U"
-			(at 113.03 119.3799 90)
+			(at 113.03 124.4599 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1847,7 +1854,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:D_DFN1006-2L"
-			(at 115.57 118.11 0)
+			(at 115.57 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1858,7 +1865,7 @@
 			)
 		)
 		(property "Datasheet" "https://xonstorage.z8.web.core.windows.net/pdf/bourne_bsdfn2c031u_xonjuly20_12_link.pdf"
-			(at 115.57 118.11 0)
+			(at 115.57 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1869,7 +1876,7 @@
 			)
 		)
 		(property "Description" "0.65pF 3.3V 500nA 50W@8/20us TVS, 6.2V, 7A@8/20us, Bidirectional, IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 DFN1006-2"
-			(at 115.57 118.11 0)
+			(at 115.57 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1880,7 +1887,7 @@
 			)
 		)
 		(property "PartNumber" "BSDFN2C031U"
-			(at 115.57 118.11 0)
+			(at 115.57 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1891,7 +1898,7 @@
 			)
 		)
 		(property "LCSC" "C600818"
-			(at 115.57 118.11 0)
+			(at 115.57 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1918,7 +1925,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 123.19 124.46 0)
+		(at 123.19 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1929,7 +1936,7 @@
 		(fields_autoplaced yes)
 		(uuid "2de327e5-1491-4a7a-873f-f8d615f3b4ee")
 		(property "Reference" "#PWR081"
-			(at 123.19 130.81 0)
+			(at 123.19 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1940,7 +1947,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 123.19 129.54 0)
+			(at 123.19 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1951,7 +1958,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 124.46 0)
+			(at 123.19 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1962,7 +1969,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 124.46 0)
+			(at 123.19 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1973,7 +1980,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 124.46 0)
+			(at 123.19 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1997,7 +2004,7 @@
 	)
 	(symbol
 		(lib_id "YV-library:TVS-BSDFN2C031U")
-		(at 119.38 118.11 270)
+		(at 119.38 123.19 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -2008,7 +2015,7 @@
 		(dnp no)
 		(uuid "538ed917-526b-4ee4-bbc8-44742d0b0d1c")
 		(property "Reference" "D11"
-			(at 118.11 111.252 0)
+			(at 118.11 116.332 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2019,7 +2026,7 @@
 			)
 		)
 		(property "Value" "BSDFN2C031U"
-			(at 116.84 119.3799 90)
+			(at 116.84 124.4599 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2031,7 +2038,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:D_DFN1006-2L"
-			(at 119.38 118.11 0)
+			(at 119.38 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2042,7 +2049,7 @@
 			)
 		)
 		(property "Datasheet" "https://xonstorage.z8.web.core.windows.net/pdf/bourne_bsdfn2c031u_xonjuly20_12_link.pdf"
-			(at 119.38 118.11 0)
+			(at 119.38 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2053,7 +2060,7 @@
 			)
 		)
 		(property "Description" "0.65pF 3.3V 500nA 50W@8/20us TVS, 6.2V, 7A@8/20us, Bidirectional, IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 DFN1006-2"
-			(at 119.38 118.11 0)
+			(at 119.38 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2064,7 +2071,7 @@
 			)
 		)
 		(property "PartNumber" "BSDFN2C031U"
-			(at 119.38 118.11 0)
+			(at 119.38 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2075,7 +2082,7 @@
 			)
 		)
 		(property "LCSC" "C600818"
-			(at 119.38 118.11 0)
+			(at 119.38 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2181,7 +2188,7 @@
 	)
 	(symbol
 		(lib_id "YV-library:TVS-BSDFN2C031U")
-		(at 111.76 118.11 270)
+		(at 111.76 123.19 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -2192,7 +2199,7 @@
 		(dnp no)
 		(uuid "6d1af712-9923-408b-8fe9-271685277ad5")
 		(property "Reference" "D9"
-			(at 110.49 112.522 0)
+			(at 110.49 117.602 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2203,7 +2210,7 @@
 			)
 		)
 		(property "Value" "BSDFN2C031U"
-			(at 109.22 119.3799 90)
+			(at 109.22 124.4599 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2215,7 +2222,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:D_DFN1006-2L"
-			(at 111.76 118.11 0)
+			(at 111.76 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2226,7 +2233,7 @@
 			)
 		)
 		(property "Datasheet" "https://xonstorage.z8.web.core.windows.net/pdf/bourne_bsdfn2c031u_xonjuly20_12_link.pdf"
-			(at 111.76 118.11 0)
+			(at 111.76 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2237,7 +2244,7 @@
 			)
 		)
 		(property "Description" "0.65pF 3.3V 500nA 50W@8/20us TVS, 6.2V, 7A@8/20us, Bidirectional, IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 DFN1006-2"
-			(at 111.76 118.11 0)
+			(at 111.76 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2248,7 +2255,7 @@
 			)
 		)
 		(property "PartNumber" "BSDFN2C031U"
-			(at 111.76 118.11 0)
+			(at 111.76 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2259,7 +2266,7 @@
 			)
 		)
 		(property "LCSC" "C600818"
-			(at 111.76 118.11 0)
+			(at 111.76 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2423,7 +2430,7 @@
 	)
 	(symbol
 		(lib_id "YV-library:TVS-BSDFN2C031U")
-		(at 104.14 118.11 270)
+		(at 104.14 123.19 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -2434,7 +2441,7 @@
 		(dnp no)
 		(uuid "80a3ece9-f39c-491a-b197-fee963a281b5")
 		(property "Reference" "D4"
-			(at 102.87 112.522 0)
+			(at 102.87 117.602 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2445,7 +2452,7 @@
 			)
 		)
 		(property "Value" "BSDFN2C031U"
-			(at 101.6 119.3799 90)
+			(at 101.6 124.4599 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2457,7 +2464,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:D_DFN1006-2L"
-			(at 104.14 118.11 0)
+			(at 104.14 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2468,7 +2475,7 @@
 			)
 		)
 		(property "Datasheet" "https://xonstorage.z8.web.core.windows.net/pdf/bourne_bsdfn2c031u_xonjuly20_12_link.pdf"
-			(at 104.14 118.11 0)
+			(at 104.14 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2479,7 +2486,7 @@
 			)
 		)
 		(property "Description" "0.65pF 3.3V 500nA 50W@8/20us TVS, 6.2V, 7A@8/20us, Bidirectional, IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 DFN1006-2"
-			(at 104.14 118.11 0)
+			(at 104.14 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2490,7 +2497,7 @@
 			)
 		)
 		(property "PartNumber" "BSDFN2C031U"
-			(at 104.14 118.11 0)
+			(at 104.14 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2501,7 +2508,7 @@
 			)
 		)
 		(property "LCSC" "C600818"
-			(at 104.14 118.11 0)
+			(at 104.14 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2685,7 +2692,7 @@
 	)
 	(symbol
 		(lib_id "YV-library:TVS-BSDFN2C031U")
-		(at 107.95 118.11 270)
+		(at 107.95 123.19 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -2696,7 +2703,7 @@
 		(dnp no)
 		(uuid "a4433eb4-b939-4665-815c-458b7f57add5")
 		(property "Reference" "D5"
-			(at 106.68 112.522 0)
+			(at 106.68 117.602 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2707,7 +2714,7 @@
 			)
 		)
 		(property "Value" "BSDFN2C031U"
-			(at 105.41 119.3799 90)
+			(at 105.41 124.4599 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2719,7 +2726,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:D_DFN1006-2L"
-			(at 107.95 118.11 0)
+			(at 107.95 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2730,7 +2737,7 @@
 			)
 		)
 		(property "Datasheet" "https://xonstorage.z8.web.core.windows.net/pdf/bourne_bsdfn2c031u_xonjuly20_12_link.pdf"
-			(at 107.95 118.11 0)
+			(at 107.95 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2741,7 +2748,7 @@
 			)
 		)
 		(property "Description" "0.65pF 3.3V 500nA 50W@8/20us TVS, 6.2V, 7A@8/20us, Bidirectional, IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 DFN1006-2"
-			(at 107.95 118.11 0)
+			(at 107.95 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2752,7 +2759,7 @@
 			)
 		)
 		(property "PartNumber" "BSDFN2C031U"
-			(at 107.95 118.11 0)
+			(at 107.95 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2763,7 +2770,7 @@
 			)
 		)
 		(property "LCSC" "C600818"
-			(at 107.95 118.11 0)
+			(at 107.95 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2972,7 +2979,7 @@
 	)
 	(symbol
 		(lib_id "YV-library:TVS-BSDFN2C031U")
-		(at 123.19 118.11 270)
+		(at 123.19 123.19 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -2983,7 +2990,7 @@
 		(dnp no)
 		(uuid "ec335350-ab53-4779-9750-b6d16a857251")
 		(property "Reference" "D12"
-			(at 121.92 111.252 0)
+			(at 121.92 116.332 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2994,7 +3001,7 @@
 			)
 		)
 		(property "Value" "BSDFN2C031U"
-			(at 120.65 119.3799 90)
+			(at 120.65 124.4599 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3006,7 +3013,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:D_DFN1006-2L"
-			(at 123.19 118.11 0)
+			(at 123.19 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3017,7 +3024,7 @@
 			)
 		)
 		(property "Datasheet" "https://xonstorage.z8.web.core.windows.net/pdf/bourne_bsdfn2c031u_xonjuly20_12_link.pdf"
-			(at 123.19 118.11 0)
+			(at 123.19 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3028,7 +3035,7 @@
 			)
 		)
 		(property "Description" "0.65pF 3.3V 500nA 50W@8/20us TVS, 6.2V, 7A@8/20us, Bidirectional, IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 DFN1006-2"
-			(at 123.19 118.11 0)
+			(at 123.19 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3039,7 +3046,7 @@
 			)
 		)
 		(property "PartNumber" "BSDFN2C031U"
-			(at 123.19 118.11 0)
+			(at 123.19 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3050,7 +3057,7 @@
 			)
 		)
 		(property "LCSC" "C600818"
-			(at 123.19 118.11 0)
+			(at 123.19 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3077,7 +3084,7 @@
 	)
 	(symbol
 		(lib_id "YV-library:TVS-BSDFN2C031U")
-		(at 100.33 118.11 270)
+		(at 100.33 123.19 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -3088,7 +3095,7 @@
 		(dnp no)
 		(uuid "fa10a9d9-fa81-4d94-ab4b-2dca1a2cb245")
 		(property "Reference" "D2"
-			(at 98.806 112.522 0)
+			(at 98.806 117.602 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3099,7 +3106,7 @@
 			)
 		)
 		(property "Value" "BSDFN2C031U"
-			(at 97.79 119.3799 90)
+			(at 97.79 124.4599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3110,7 +3117,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:D_DFN1006-2L"
-			(at 100.33 118.11 0)
+			(at 100.33 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3121,7 +3128,7 @@
 			)
 		)
 		(property "Datasheet" "https://xonstorage.z8.web.core.windows.net/pdf/bourne_bsdfn2c031u_xonjuly20_12_link.pdf"
-			(at 100.33 118.11 0)
+			(at 100.33 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3132,7 +3139,7 @@
 			)
 		)
 		(property "Description" "0.65pF 3.3V 500nA 50W@8/20us TVS, 6.2V, 7A@8/20us, Bidirectional, IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 DFN1006-2"
-			(at 100.33 118.11 0)
+			(at 100.33 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3143,7 +3150,7 @@
 			)
 		)
 		(property "PartNumber" "BSDFN2C031U"
-			(at 100.33 118.11 0)
+			(at 100.33 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3154,7 +3161,7 @@
 			)
 		)
 		(property "LCSC" "C600818"
-			(at 100.33 118.11 0)
+			(at 100.33 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3165,7 +3172,7 @@
 			)
 		)
 		(property "Capacitance" "0.65pF"
-			(at 87.376 121.158 90)
+			(at 87.376 126.238 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

@@ -4,6 +4,13 @@
 	(generator_version "10.0")
 	(uuid "7fdbbbe6-1bca-494a-9039-7037daca12dd")
 	(paper "A4")
+	(title_block
+		(title "Strain Gauge Data Logger")
+		(date "2026-10-01")
+		(rev "1")
+		(company "Motion Composites")
+		(comment 1 "by Yannick Vallée, ing.")
+	)
 	(lib_symbols
 		(symbol "Device:R"
 			(pin_numbers
@@ -165,7 +172,7 @@
 					)
 				)
 			)
-			(property "Value" "ER-CON06HT-1"
+			(property "Value" "KH-FG0.5-H2.0-6PIN"
 				(at 1.27 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -187,7 +194,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.buydisplay.com/download/connector/ER-CON06HT-1.pdf"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -199,6 +206,28 @@
 				)
 			)
 			(property "Description" "6 Pins 0.5mm Pitch ZIF Connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PartNumber" "KH-FG0.5-H2.0-6PIN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C709363"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -479,7 +508,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "ER-CON50HT-1"
+			(property "Value" "HC-FPC-0.5-50P-FHH20"
 				(at 2.54 -2.8955 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -490,7 +519,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "YV:ER-CON50HT-1"
+			(property "Footprint" "YV:HC-FPC-0.5-50P-FHH20"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -512,7 +541,29 @@
 					)
 				)
 			)
-			(property "Description" "\"Generic connectable mounting pin connector, single row, 01x50, script generated\""
+			(property "Description" "0.3mm 0.5mm 2mm 50P Copper Double-Sided Contacts, Top and Bottom Entry Flip-Top Gold Surface Mount, Right Angle SMD,P=0.5mm,Surface Mount，Right Angle FFC, FPC (Flat Flexible) , -25℃~+85℃"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PartNumber" "HC-FPC-0.5-50P-FHH20"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C19273943"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2313,6 +2364,40 @@
 		)
 		(uuid "0429b474-5859-4323-b09f-c7210355474e")
 	)
+	(text "RGB Screen Connector"
+		(exclude_from_sim no)
+		(at 182.118 20.828 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3048)
+				(bold yes)
+			)
+		)
+		(uuid "1806ac82-fa0b-4859-b978-c8e1bef36510")
+	)
+	(text "Touch's I2C Connector"
+		(exclude_from_sim no)
+		(at 66.294 54.356 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3048)
+				(bold yes)
+			)
+		)
+		(uuid "3a31ec4f-93b6-4e31-baf3-09b6ebb96e84")
+	)
+	(text "RS"
+		(exclude_from_sim no)
+		(at 208.534 120.142 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "a8214144-f1d2-4015-9f65-9d520a64dff2")
+	)
 	(text "https://docs.espressif.com/projects/esp-iot-solution/en/latest/display/lcd/rgb_lcd.html"
 		(exclude_from_sim no)
 		(at 65.532 196.342 0)
@@ -2434,7 +2519,7 @@
 		(uuid "7f06ef54-0389-4f74-89dd-d703c375bb3d")
 	)
 	(no_connect
-		(at 99.06 125.73)
+		(at 90.17 85.09)
 		(uuid "8a1dbebe-b0a8-499c-afb4-370a5f121eaf")
 	)
 	(no_connect
@@ -2814,7 +2899,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 110.49) (xy 91.44 105.41)
+			(xy 82.55 69.85) (xy 82.55 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2924,7 +3009,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 118.11) (xy 93.98 118.11)
+			(xy 63.5 77.47) (xy 85.09 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3114,7 +3199,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 113.03) (xy 91.44 113.03)
+			(xy 85.09 72.39) (xy 82.55 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3134,7 +3219,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 107.95) (xy 93.98 107.95)
+			(xy 63.5 67.31) (xy 85.09 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3224,7 +3309,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 120.65) (xy 93.98 120.65)
+			(xy 63.5 80.01) (xy 85.09 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3354,7 +3439,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 110.49) (xy 91.44 110.49)
+			(xy 85.09 69.85) (xy 82.55 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3454,7 +3539,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 113.03) (xy 91.44 123.19)
+			(xy 82.55 72.39) (xy 82.55 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3604,7 +3689,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 115.57) (xy 93.98 115.57)
+			(xy 63.5 74.93) (xy 85.09 74.93)
 		)
 		(stroke
 			(width 0)
@@ -6155,16 +6240,6 @@
 		)
 		(uuid "187c8c46-640a-42dc-a982-a7291a82a1f2")
 	)
-	(label "RS"
-		(at 207.01 120.65 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "2158a836-6b39-4238-a72c-78b58357e446")
-	)
 	(label "DS11"
 		(at 193.04 69.85 0)
 		(effects
@@ -6518,7 +6593,7 @@
 	)
 	(hierarchical_label "Touch-SDA"
 		(shape bidirectional)
-		(at 72.39 118.11 180)
+		(at 63.5 77.47 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -6529,7 +6604,7 @@
 	)
 	(hierarchical_label "Touch-SCL"
 		(shape input)
-		(at 72.39 120.65 180)
+		(at 63.5 80.01 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -6551,7 +6626,7 @@
 	)
 	(hierarchical_label "Touch-INT"
 		(shape output)
-		(at 72.39 115.57 180)
+		(at 63.5 74.93 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -6562,7 +6637,7 @@
 	)
 	(hierarchical_label "Touch-RST"
 		(shape input)
-		(at 72.39 107.95 180)
+		(at 63.5 67.31 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -6594,7 +6669,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ER-CON50HT-1"
+		(property "Value" "HC-FPC-0.5-50P-FHH20"
 			(at 224.79 95.6055 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6605,7 +6680,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "YV:ER-CON50HT-1"
+		(property "Footprint" "YV:HC-FPC-0.5-50P-FHH20"
 			(at 222.25 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -6627,7 +6702,29 @@
 				)
 			)
 		)
-		(property "Description" "\"Generic connectable mounting pin connector, single row, 01x50, script generated\""
+		(property "Description" "0.3mm 0.5mm 2mm 50P Copper Double-Sided Contacts, Top and Bottom Entry Flip-Top Gold Surface Mount, Right Angle SMD,P=0.5mm,Surface Mount，Right Angle FFC, FPC (Flat Flexible) , -25℃~+85℃"
+			(at 222.25 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNumber" "HC-FPC-0.5-50P-FHH20"
+			(at 222.25 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C19273943"
 			(at 222.25 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -6971,7 +7068,7 @@
 	)
 	(symbol
 		(lib_id "YV-library:ER-CON06HT-1")
-		(at 99.06 113.03 0)
+		(at 90.17 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6982,7 +7079,7 @@
 		(fields_autoplaced yes)
 		(uuid "0c11e83c-7788-47f1-a3fb-5bf3b78d0a97")
 		(property "Reference" "J3"
-			(at 101.6 113.3855 0)
+			(at 92.71 72.7455 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6992,8 +7089,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ER-CON06HT-1"
-			(at 101.6 115.9255 0)
+		(property "Value" "KH-FG0.5-H2.0-6PIN"
+			(at 92.71 75.2855 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7004,7 +7101,7 @@
 			)
 		)
 		(property "Footprint" "YV:ER-CON06HT-1"
-			(at 99.06 113.03 0)
+			(at 90.17 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7015,7 +7112,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.buydisplay.com/download/connector/ER-CON06HT-1.pdf"
-			(at 99.06 113.03 0)
+			(at 90.17 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7026,7 +7123,29 @@
 			)
 		)
 		(property "Description" "6 Pins 0.5mm Pitch ZIF Connector"
-			(at 99.06 113.03 0)
+			(at 90.17 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNumber" "KH-FG0.5-H2.0-6PIN"
+			(at 90.17 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C709363"
+			(at 90.17 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7314,7 +7433,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 123.19 0)
+		(at 82.55 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7325,7 +7444,7 @@
 		(fields_autoplaced yes)
 		(uuid "4488e38c-1940-49f7-9cb6-2f1c9e5e106a")
 		(property "Reference" "#PWR074"
-			(at 91.44 129.54 0)
+			(at 82.55 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7336,7 +7455,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 128.27 0)
+			(at 82.55 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7347,7 +7466,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 123.19 0)
+			(at 82.55 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7358,7 +7477,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 123.19 0)
+			(at 82.55 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7369,7 +7488,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 123.19 0)
+			(at 82.55 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7761,7 +7880,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "99e2820a-6580-45dd-b018-1114940332e8")
 		(property "Reference" "#PWR076"
 			(at 181.61 140.97 0)
@@ -7774,14 +7892,15 @@
 				)
 			)
 		)
-		(property "Value" "+15V"
-			(at 181.61 132.08 0)
+		(property "Value" "+14.5V"
+			(at 178.054 133.096 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7921,7 +8040,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 91.44 105.41 0)
+		(at 82.55 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7932,7 +8051,7 @@
 		(fields_autoplaced yes)
 		(uuid "cbcdb34f-ad1b-4d4e-8f5d-d1ef48286309")
 		(property "Reference" "#PWR075"
-			(at 91.44 109.22 0)
+			(at 82.55 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7943,7 +8062,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 91.44 100.33 0)
+			(at 82.55 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7953,7 +8072,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 105.41 0)
+			(at 82.55 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7964,7 +8083,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 105.41 0)
+			(at 82.55 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7975,7 +8094,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 91.44 105.41 0)
+			(at 82.55 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

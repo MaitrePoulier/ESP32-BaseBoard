@@ -14,12 +14,10 @@ Big update: (wish)
 	* 4.3"
 	* Display controller	ST7701S 
 	* Touch controller 		CST3240
-	* Adafruit Qualia ESP32-S3 can support it with an 40 to 50 pins ribbon cable
 	* Screen needed to be glued to the case
 		* Use 3M 467MP or 3M VHB glue tape.
-		* connecteur 50pins, 0.5mm, top/bot contact: 	C3169104
-		* connecteur 50pins, 0.5mm, top/bot contact:	C224194
-	* Need to make my own pcb, 1mm thick, and passing from +5V to +15V and 3.3V
+		* connecteur 50pins, 0.5mm, top/bot contact: 	C19273943
+		* connecteur  6pins, 0.5mm, bot contact:		C709363
 		
 	
 
