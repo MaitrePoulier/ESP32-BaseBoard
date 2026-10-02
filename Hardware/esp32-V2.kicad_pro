@@ -909,7 +909,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../../../../../home/melchior/Desktop/esp32-V2.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -1128,7 +1128,7 @@
         "uuid": "cee18f8d-8618-44b5-96f4-3f3967d85a92"
       }
     ],
-    "used_designators": "L1-15,#PWR1-4,#PWR6,#PWR11-12,#PWR15,#PWR17,#PWR20,#PWR22-25,#PWR27-41,#PWR44,#PWR66-68,#PWR70-85,D1-18,SW1,SW3-5,J1-15,Q1-2,U1-6,U8-12,C1-21,C25-55,R1-16,R21-37,JP1-8,F1-3,TP1-5,NT1",
+    "used_designators": "L1-15,#PWR1-4,#PWR6,#PWR11-12,#PWR15,#PWR17,#PWR20,#PWR22-25,#PWR27-41,#PWR44,#PWR66-68,#PWR70-85,D1-18,C1-21,C25-55,SW1,SW3-5,NT1,J1-15,Q1-2,U1-6,U8-12,F1-3,R1-16,R21-37,JP1-8,TP1-5",
     "variants": []
   },
   "sheets": [
