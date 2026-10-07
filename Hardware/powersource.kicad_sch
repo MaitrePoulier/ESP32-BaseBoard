@@ -4955,7 +4955,7 @@
 		(uuid "0da9c2f8-a1f6-4dae-9265-5e312d163bb1")
 	)
 	(junction
-		(at 76.2 66.04)
+		(at 63.5 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "19bcbdcf-cbdd-4756-892c-572862720ebc")
@@ -5081,7 +5081,7 @@
 		(uuid "b3c3646b-0dcd-4ae9-9c31-96a8b2a5ca5f")
 	)
 	(junction
-		(at 76.2 46.99)
+		(at 63.5 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b63a05fb-134f-468a-a754-cc474cdd5324")
@@ -5105,7 +5105,7 @@
 		(uuid "be1d2482-5674-47b9-a9f7-51ab3c9ca1c3")
 	)
 	(junction
-		(at 72.39 52.07)
+		(at 59.69 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1bb58a8-e66b-4da8-8880-7cbf60d6b54d")
@@ -5184,7 +5184,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 46.99) (xy 62.23 46.99)
+			(xy 55.88 46.99) (xy 68.58 46.99)
 		)
 		(stroke
 			(width 0)
@@ -5214,7 +5214,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 64.77) (xy 72.39 66.04)
+			(xy 59.69 64.77) (xy 59.69 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5394,7 +5394,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 66.04) (xy 76.2 66.04)
+			(xy 59.69 66.04) (xy 63.5 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5514,7 +5514,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 66.04) (xy 76.2 67.31)
+			(xy 63.5 66.04) (xy 63.5 67.31)
 		)
 		(stroke
 			(width 0)
@@ -5634,7 +5634,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 64.77) (xy 76.2 66.04)
+			(xy 63.5 64.77) (xy 63.5 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5804,6 +5804,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 52.07) (xy 80.01 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f177be7-53ba-42d0-bc7d-b860b3927a22")
+	)
+	(wire
+		(pts
 			(xy 25.4 146.05) (xy 25.4 148.59)
 		)
 		(stroke
@@ -5841,16 +5851,6 @@
 			(type default)
 		)
 		(uuid "84421861-977a-4543-b175-148c5d481746")
-	)
-	(wire
-		(pts
-			(xy 72.39 52.07) (xy 80.01 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86f07d8c-ecdd-4f45-a7fd-337c5b10589f")
 	)
 	(wire
 		(pts
@@ -6004,7 +6004,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 46.99) (xy 76.2 57.15)
+			(xy 63.5 46.99) (xy 63.5 57.15)
 		)
 		(stroke
 			(width 0)
@@ -6024,7 +6024,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 52.07) (xy 62.23 52.07)
+			(xy 55.88 52.07) (xy 68.58 52.07)
 		)
 		(stroke
 			(width 0)
@@ -6164,6 +6164,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 46.99) (xy 80.01 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb5f4246-f10f-4a00-a113-471d182c2e8f")
+	)
+	(wire
+		(pts
 			(xy 52.07 36.83) (xy 62.23 36.83)
 		)
 		(stroke
@@ -6274,16 +6284,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 46.99) (xy 76.2 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfaf7650-6ff8-4f40-b678-48dc365e7a73")
-	)
-	(wire
-		(pts
 			(xy 214.63 77.47) (xy 210.82 77.47)
 		)
 		(stroke
@@ -6311,16 +6311,6 @@
 			(type default)
 		)
 		(uuid "d0d21e7c-c930-4198-9717-fde043750abd")
-	)
-	(wire
-		(pts
-			(xy 76.2 46.99) (xy 80.01 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d17273a7-efae-4fb2-83a3-466116084a0e")
 	)
 	(wire
 		(pts
@@ -6424,23 +6414,13 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 52.07) (xy 72.39 57.15)
+			(xy 59.69 52.07) (xy 59.69 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e4127cc0-6e37-4e79-a4fb-9ccf527ba20e")
-	)
-	(wire
-		(pts
-			(xy 69.85 52.07) (xy 72.39 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4dff19b-0033-47d6-81cf-5dac3d05acec")
 	)
 	(wire
 		(pts
@@ -6790,7 +6770,7 @@
 	)
 	(symbol
 		(lib_id "YV-library:TVS-BSDFN2C031U")
-		(at 76.2 60.96 270)
+		(at 63.5 60.96 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -6801,7 +6781,7 @@
 		(dnp no)
 		(uuid "07f2c9d1-410b-45be-9d7c-cc5af05d99cb")
 		(property "Reference" "D14"
-			(at 75.184 54.102 0)
+			(at 62.484 54.102 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6812,7 +6792,7 @@
 			)
 		)
 		(property "Value" "BSDFN2C031U"
-			(at 73.66 62.2299 90)
+			(at 60.96 62.2299 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6824,7 +6804,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:D_DFN1006-2L"
-			(at 76.2 60.96 0)
+			(at 63.5 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6835,7 +6815,7 @@
 			)
 		)
 		(property "Datasheet" "https://xonstorage.z8.web.core.windows.net/pdf/bourne_bsdfn2c031u_xonjuly20_12_link.pdf"
-			(at 76.2 60.96 0)
+			(at 63.5 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6846,7 +6826,7 @@
 			)
 		)
 		(property "Description" "0.65pF 3.3V 500nA 50W@8/20us TVS, 6.2V, 7A@8/20us, Bidirectional, IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 DFN1006-2"
-			(at 76.2 60.96 0)
+			(at 63.5 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6857,7 +6837,7 @@
 			)
 		)
 		(property "PartNumber" "BSDFN2C031U"
-			(at 76.2 60.96 0)
+			(at 63.5 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6868,7 +6848,7 @@
 			)
 		)
 		(property "LCSC" "C600818"
-			(at 76.2 60.96 0)
+			(at 63.5 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6888,6 +6868,107 @@
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/45d18cef-221f-4840-9d47-4fa51498f5ac"
 					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YV-library:RES47R0M-00")
+		(at 72.39 46.99 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0851b1ac-d660-4302-bafa-7bbaacb5c02f")
+		(property "Reference" "R6"
+			(at 67.818 45.974 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47Ω"
+			(at 72.39 46.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 72.39 48.768 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "47Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402, -55℃~+155℃"
+			(at 72.39 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2909362"
+			(at 73.152 49.022 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "PartNumber" "FRC0402F47R0TS"
+			(at 72.39 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9249c0c0-9d6e-42a5-a857-a93a115b6fb1")
+		)
+		(pin "1"
+			(uuid "f9f22184-9fa0-4867-9329-a8d57587687f")
+		)
+		(instances
+			(project "esp32-V2"
+				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/45d18cef-221f-4840-9d47-4fa51498f5ac"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -7232,7 +7313,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+		(property "Footprint" "YV:NetTie-2_SMD_Pad0.16mm"
 			(at 77.47 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -7385,7 +7466,7 @@
 	)
 	(symbol
 		(lib_id "YV-library:TVS-BSDFN2C031U")
-		(at 72.39 60.96 270)
+		(at 59.69 60.96 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -7396,7 +7477,7 @@
 		(dnp no)
 		(uuid "1eaaacc6-60fc-4f16-8d46-15c721239a5a")
 		(property "Reference" "D13"
-			(at 71.374 54.102 0)
+			(at 58.674 54.102 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7407,7 +7488,7 @@
 			)
 		)
 		(property "Value" "BSDFN2C031U"
-			(at 69.85 62.2299 90)
+			(at 79.248 62.992 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7418,7 +7499,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:D_DFN1006-2L"
-			(at 72.39 60.96 0)
+			(at 59.69 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7429,7 +7510,7 @@
 			)
 		)
 		(property "Datasheet" "https://xonstorage.z8.web.core.windows.net/pdf/bourne_bsdfn2c031u_xonjuly20_12_link.pdf"
-			(at 72.39 60.96 0)
+			(at 59.69 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7440,7 +7521,7 @@
 			)
 		)
 		(property "Description" "0.65pF 3.3V 500nA 50W@8/20us TVS, 6.2V, 7A@8/20us, Bidirectional, IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 DFN1006-2"
-			(at 72.39 60.96 0)
+			(at 59.69 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7451,7 +7532,7 @@
 			)
 		)
 		(property "PartNumber" "BSDFN2C031U"
-			(at 72.39 60.96 0)
+			(at 59.69 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7462,7 +7543,7 @@
 			)
 		)
 		(property "LCSC" "C600818"
-			(at 72.39 60.96 0)
+			(at 59.69 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9150,8 +9231,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 76.2 67.31 0)
+		(lib_id "YV-library:RES47R0M-00")
+		(at 72.39 52.07 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9159,11 +9240,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b021882-1b14-430b-ac0d-3baa978a0a1c")
-		(property "Reference" "#PWR066"
-			(at 76.2 73.66 0)
-			(hide yes)
+		(uuid "6577eb75-0946-499b-b9ec-437b6d3b7f2a")
+		(property "Reference" "R7"
+			(at 67.818 51.054 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9172,19 +9251,18 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 76.2 72.39 0)
-			(hide yes)
+		(property "Value" "47Ω"
+			(at 72.39 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 76.2 67.31 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 72.39 53.848 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9195,7 +9273,111 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 67.31 0)
+			(at 72.39 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "47Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402, -55℃~+155℃"
+			(at 72.39 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2909362"
+			(at 73.152 54.102 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "PartNumber" "FRC0402F47R0TS"
+			(at 72.39 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "78d922e1-e301-4f2c-be0a-0db5ef87a1f8")
+		)
+		(pin "1"
+			(uuid "3b3b5132-5798-4613-823c-6e2d117f2e7e")
+		)
+		(instances
+			(project "esp32-V2"
+				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/45d18cef-221f-4840-9d47-4fa51498f5ac"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 63.5 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b021882-1b14-430b-ac0d-3baa978a0a1c")
+		(property "Reference" "#PWR066"
+			(at 63.5 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9206,7 +9388,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 67.31 0)
+			(at 63.5 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10582,107 +10764,6 @@
 		)
 	)
 	(symbol
-		(lib_id "YV-library:RES47R0M-00")
-		(at 66.04 46.99 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a4b19e9f-8d59-4fe9-b46f-5b6c4d606f6a")
-		(property "Reference" "R6"
-			(at 61.468 45.974 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47Ω"
-			(at 66.04 46.99 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 66.04 48.768 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "47Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402, -55℃~+155℃"
-			(at 66.04 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2909362"
-			(at 66.802 49.022 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "PartNumber" "FRC0402F47R0TS"
-			(at 66.04 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c87820cc-cc13-496d-a6ea-8195308665b3")
-		)
-		(pin "1"
-			(uuid "faa863ff-c9d9-4cb4-8916-8654fd357577")
-		)
-		(instances
-			(project "esp32-V2"
-				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/45d18cef-221f-4840-9d47-4fa51498f5ac"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 237.49 80.01 0)
 		(unit 1)
@@ -11989,107 +12070,6 @@
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/45d18cef-221f-4840-9d47-4fa51498f5ac"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "YV-library:RES47R0M-00")
-		(at 66.04 52.07 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "eb6edb0f-1f2a-4881-8e62-90b82fd99369")
-		(property "Reference" "R7"
-			(at 61.468 51.054 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47Ω"
-			(at 66.04 52.07 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 66.04 53.848 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "47Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402, -55℃~+155℃"
-			(at 66.04 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2909362"
-			(at 66.802 54.102 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "PartNumber" "FRC0402F47R0TS"
-			(at 66.04 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "849522b6-603f-4431-b900-7be4f19b2918")
-		)
-		(pin "1"
-			(uuid "12f74a49-c69c-4ab9-9efd-14877bbba716")
-		)
-		(instances
-			(project "esp32-V2"
-				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/45d18cef-221f-4840-9d47-4fa51498f5ac"
-					(reference "R7")
 					(unit 1)
 				)
 			)

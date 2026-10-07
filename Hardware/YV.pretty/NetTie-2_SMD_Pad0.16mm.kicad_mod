@@ -1,0 +1,89 @@
+(footprint "NetTie-2_SMD_Pad0.16mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Net tie, 2 pin, 0.5mm square SMD pads")
+	(tags "net tie")
+	(property "Reference" "NT1"
+		(at 0 -1.2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4cf810b2-2581-408c-afd2-725a0298b45b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "NetTie_2"
+		(at 0 1.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e88d2113-996e-49c7-934b-eed0d6345351")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0506ff76-ba50-477b-af04-aa825952b942")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Net tie, 2 pins"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dbf5fabe-dc50-477a-b4ba-c3a95faeb5e9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "Net*Tie*")
+	(sheetname "/USB and Cells/")
+	(sheetfile "powersource.kicad_sch")
+	(attr exclude_from_bom allow_missing_courtyard)
+	(net_tie_pad_groups "1, 2")
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy -0.16 -0.08) (xy 0.16 -0.08) (xy 0.16 0.08) (xy -0.16 0.08)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(uuid "f85b6225-1309-4601-81c3-12b8d87e0f7d")
+	)
+	(pad "1" smd circle
+		(at -0.16 0)
+		(size 0.16 0.16)
+		(layers "F.Cu")
+		(uuid "38d67560-c753-49fb-a918-9c491737c358")
+	)
+	(pad "2" smd circle
+		(at 0.16 0)
+		(size 0.16 0.16)
+		(layers "F.Cu")
+		(uuid "a04432e5-c2e7-4aaf-8595-e3a5482fb48b")
+	)
+	(embedded_fonts no)
+)
