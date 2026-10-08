@@ -541,7 +541,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8404f7c7-111a-4e87-b423-0774a4e6acfe")
-		(property "Reference" "R11"
+		(property "Reference" "R1"
 			(at 135.636 62.484 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -627,7 +627,7 @@
 		(instances
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92"
-					(reference "R11")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -644,7 +644,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a9303878-54c3-4583-9293-1cd120ea2b3c")
-		(property "Reference" "R10"
+		(property "Reference" "R3"
 			(at 128.778 62.484 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -730,7 +730,7 @@
 		(instances
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92"
-					(reference "R10")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -957,26 +957,6 @@
 				(justify left top)
 			)
 		)
-		(pin "USB-Dn" bidirectional
-			(at 109.22 110.49 0)
-			(uuid "692d0f58-c511-4e7e-a79a-de1b787928cc")
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(pin "USB-Dp" bidirectional
-			(at 109.22 107.95 0)
-			(uuid "4d857803-55a6-4744-93a3-02e681cb169d")
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
 		(pin "I2C-SCL" input
 			(at 109.22 116.84 0)
 			(uuid "15d6831b-a10b-4c25-b8ec-83883dd51a59")
@@ -990,6 +970,26 @@
 		(pin "I2C-SDA" bidirectional
 			(at 109.22 119.38 0)
 			(uuid "f47ab2fc-98c6-4b46-aff9-c900dae19d99")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D+" bidirectional
+			(at 109.22 107.95 0)
+			(uuid "e7be5a62-01fc-4246-ab96-8e104882255b")
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D-" bidirectional
+			(at 109.22 110.49 0)
+			(uuid "70aae160-7a87-451c-a4e9-4f925e425aec")
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1103,7 +1103,7 @@
 				(justify left)
 			)
 		)
-		(pin "USB-Dn" bidirectional
+		(pin "USB_D-" bidirectional
 			(at 158.75 110.49 180)
 			(uuid "72e63189-e47b-4388-bf65-74aedf6c5697")
 			(effects
@@ -1113,7 +1113,7 @@
 				(justify left)
 			)
 		)
-		(pin "USB-Dp" bidirectional
+		(pin "USB_D+" bidirectional
 			(at 158.75 107.95 180)
 			(uuid "893b13c3-a633-40b2-84b6-9808d0c7b4a2")
 			(effects

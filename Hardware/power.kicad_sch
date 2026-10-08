@@ -4651,7 +4651,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0120f8f1-4117-4b34-9693-67586f5a0356")
-		(property "Reference" "R19"
+		(property "Reference" "R15"
 			(at 232.41 106.934 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4735,7 +4735,7 @@
 		(instances
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/cda1f2b0-db1a-481a-9cd3-0bf889086c1f"
-					(reference "R19")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -4752,7 +4752,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0163aa5a-1430-4976-8b4b-33c8b0544f65")
-		(property "Reference" "R17"
+		(property "Reference" "R12"
 			(at 232.156 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4836,7 +4836,7 @@
 		(instances
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/cda1f2b0-db1a-481a-9cd3-0bf889086c1f"
-					(reference "R17")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -4853,7 +4853,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "031128c5-e3c4-4e48-8833-4a5dc3998416")
-		(property "Reference" "R3"
+		(property "Reference" "R6"
 			(at 227.584 53.848 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4939,7 +4939,7 @@
 		(instances
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/cda1f2b0-db1a-481a-9cd3-0bf889086c1f"
-					(reference "R3")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -5227,7 +5227,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1753c02c-05f2-445c-b85d-b593620ba49a")
-		(property "Reference" "C33"
+		(property "Reference" "C19"
 			(at 117.348 38.608 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5325,7 +5325,7 @@
 		(instances
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/cda1f2b0-db1a-481a-9cd3-0bf889086c1f"
-					(reference "C33")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -5422,7 +5422,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "19ed140a-b95c-4f11-b949-618f50762579")
-		(property "Reference" "C18"
+		(property "Reference" "C23"
 			(at 173.228 114.808 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5508,7 +5508,7 @@
 		(instances
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/cda1f2b0-db1a-481a-9cd3-0bf889086c1f"
-					(reference "C18")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -5603,7 +5603,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "29450869-2525-46bb-95e7-63db9db9c24c")
-		(property "Reference" "C12"
+		(property "Reference" "C14"
 			(at 77.724 112.014 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5689,7 +5689,7 @@
 		(instances
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/cda1f2b0-db1a-481a-9cd3-0bf889086c1f"
-					(reference "C12")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -6158,7 +6158,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "34967613-1780-41d6-9605-b9d91161d610")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 184.404 67.818 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6233,7 +6233,7 @@
 		(instances
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/cda1f2b0-db1a-481a-9cd3-0bf889086c1f"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -6519,7 +6519,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3cdb9e67-860b-410f-91c4-d152df991860")
-		(property "Reference" "C19"
+		(property "Reference" "C24"
 			(at 244.348 121.158 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6617,7 +6617,7 @@
 		(instances
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/cda1f2b0-db1a-481a-9cd3-0bf889086c1f"
-					(reference "C19")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -6815,7 +6815,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ccb1843-e540-4e04-8819-c64dcf7540f1")
-		(property "Reference" "U7"
+		(property "Reference" "U6"
 			(at 196.85 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6926,7 +6926,7 @@
 		(instances
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/cda1f2b0-db1a-481a-9cd3-0bf889086c1f"
-					(reference "U7")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -7046,7 +7046,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "51080694-cd98-40aa-bede-b7fc2659108d")
-		(property "Reference" "C20"
+		(property "Reference" "C25"
 			(at 254.508 121.158 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7142,7 +7142,7 @@
 		(instances
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/cda1f2b0-db1a-481a-9cd3-0bf889086c1f"
-					(reference "C20")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -7417,7 +7417,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "583f0342-4a2a-4b07-b583-99db918da9ae")
-		(property "Reference" "C30"
+		(property "Reference" "C18"
 			(at 112.268 38.608 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7515,7 +7515,7 @@
 		(instances
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/cda1f2b0-db1a-481a-9cd3-0bf889086c1f"
-					(reference "C30")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -7612,7 +7612,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c4457f3-7dfd-4baa-934c-1d08da3d1381")
-		(property "Reference" "U5"
+		(property "Reference" "U4"
 			(at 55.88 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7699,7 +7699,7 @@
 		(instances
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/cda1f2b0-db1a-481a-9cd3-0bf889086c1f"
-					(reference "U5")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -8056,7 +8056,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "68836b91-d75f-463a-bd1c-5070ca0af967")
-		(property "Reference" "C23"
+		(property "Reference" "C28"
 			(at 162.814 101.854 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8142,7 +8142,7 @@
 		(instances
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/cda1f2b0-db1a-481a-9cd3-0bf889086c1f"
-					(reference "C23")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -8442,7 +8442,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "754fb309-287f-451a-8545-2682628821a1")
-		(property "Reference" "R2"
+		(property "Reference" "R4"
 			(at 227.584 39.878 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8528,7 +8528,7 @@
 		(instances
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/cda1f2b0-db1a-481a-9cd3-0bf889086c1f"
-					(reference "R2")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -8545,7 +8545,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "75e21bc6-97ca-4630-8e08-faa22976b408")
-		(property "Reference" "C9"
+		(property "Reference" "C29"
 			(at 53.594 38.354 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8631,7 +8631,7 @@
 		(instances
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/cda1f2b0-db1a-481a-9cd3-0bf889086c1f"
-					(reference "C9")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -8648,7 +8648,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "765dbb3a-29d9-47af-8209-dc07036c44ac")
-		(property "Reference" "L9"
+		(property "Reference" "L8"
 			(at 70.612 31.496 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8742,7 +8742,7 @@
 		(instances
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/cda1f2b0-db1a-481a-9cd3-0bf889086c1f"
-					(reference "L9")
+					(reference "L8")
 					(unit 1)
 				)
 			)
@@ -8759,7 +8759,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b0f2519-fec3-45e4-b032-b3bfe868773c")
-		(property "Reference" "C34"
+		(property "Reference" "C21"
 			(at 122.428 38.608 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8855,7 +8855,7 @@
 		(instances
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/cda1f2b0-db1a-481a-9cd3-0bf889086c1f"
-					(reference "C34")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -8872,7 +8872,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "85406dfb-8814-4120-b9dd-3ebaa3c35802")
-		(property "Reference" "R18"
+		(property "Reference" "R13"
 			(at 244.856 106.934 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8945,7 +8945,7 @@
 		(instances
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/cda1f2b0-db1a-481a-9cd3-0bf889086c1f"
-					(reference "R18")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -8962,7 +8962,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "862833aa-6892-46bf-96c1-65306a9c8576")
-		(property "Reference" "C21"
+		(property "Reference" "C26"
 			(at 239.014 121.158 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9060,7 +9060,7 @@
 		(instances
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/cda1f2b0-db1a-481a-9cd3-0bf889086c1f"
-					(reference "C21")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -9156,7 +9156,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8dc7c072-5223-43d9-8c04-893fa176d598")
-		(property "Reference" "D3"
+		(property "Reference" "D10"
 			(at 223.266 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9251,7 +9251,7 @@
 		(instances
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/cda1f2b0-db1a-481a-9cd3-0bf889086c1f"
-					(reference "D3")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -9371,7 +9371,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "95a39f03-5554-4b89-a12c-7044f4dcb25d")
-		(property "Reference" "C6"
+		(property "Reference" "C7"
 			(at 176.784 37.084 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9457,7 +9457,7 @@
 		(instances
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/cda1f2b0-db1a-481a-9cd3-0bf889086c1f"
-					(reference "C6")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -9474,7 +9474,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "99784ae4-449c-4c68-9eeb-9fc570525007")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 195.072 39.116 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9562,7 +9562,7 @@
 		(instances
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/cda1f2b0-db1a-481a-9cd3-0bf889086c1f"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -9580,7 +9580,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9dad0693-9434-4c78-abc2-91ebee30d3c8")
-		(property "Reference" "D1"
+		(property "Reference" "D7"
 			(at 216.154 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9675,7 +9675,7 @@
 		(instances
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/cda1f2b0-db1a-481a-9cd3-0bf889086c1f"
-					(reference "D1")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -9873,7 +9873,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a82f0daf-3193-4247-aa5c-55adb5a99d88")
-		(property "Reference" "R20"
+		(property "Reference" "R18"
 			(at 173.736 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9957,7 +9957,7 @@
 		(instances
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/cda1f2b0-db1a-481a-9cd3-0bf889086c1f"
-					(reference "R20")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -10132,7 +10132,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "abf8ab96-d7b5-416c-a786-52b60d2057b5")
-		(property "Reference" "C24"
+		(property "Reference" "C30"
 			(at 275.336 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10228,7 +10228,7 @@
 		(instances
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/cda1f2b0-db1a-481a-9cd3-0bf889086c1f"
-					(reference "C24")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -10673,7 +10673,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da5d01d3-8bfb-4c74-8e71-f7873813e6ff")
-		(property "Reference" "C35"
+		(property "Reference" "C20"
 			(at 107.188 38.608 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10771,7 +10771,7 @@
 		(instances
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/cda1f2b0-db1a-481a-9cd3-0bf889086c1f"
-					(reference "C35")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -10970,7 +10970,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec0e2213-137b-4bf1-a428-0095eeb0b3a2")
-		(property "Reference" "R5"
+		(property "Reference" "R17"
 			(at 96.774 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11056,7 +11056,7 @@
 		(instances
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/cda1f2b0-db1a-481a-9cd3-0bf889086c1f"
-					(reference "R5")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -11073,7 +11073,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ee2c5316-e481-40b1-a491-05527e898db6")
-		(property "Reference" "R36"
+		(property "Reference" "R16"
 			(at 98.552 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11146,7 +11146,7 @@
 		(instances
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/cda1f2b0-db1a-481a-9cd3-0bf889086c1f"
-					(reference "R36")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -11163,7 +11163,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0e4edf2-8515-4eb5-b29a-4c50383d1ada")
-		(property "Reference" "C22"
+		(property "Reference" "C27"
 			(at 249.428 121.158 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11261,7 +11261,7 @@
 		(instances
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/cda1f2b0-db1a-481a-9cd3-0bf889086c1f"
-					(reference "C22")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -11357,7 +11357,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f62f08ed-a13f-4516-938f-02d8cca7ad7b")
-		(property "Reference" "D15"
+		(property "Reference" "D11"
 			(at 85.344 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11452,7 +11452,7 @@
 		(instances
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/cda1f2b0-db1a-481a-9cd3-0bf889086c1f"
-					(reference "D15")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -11469,7 +11469,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f6ee1d90-2fa4-434e-bbcc-7587f3d59a23")
-		(property "Reference" "U6"
+		(property "Reference" "U7"
 			(at 68.58 41.656 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11567,7 +11567,7 @@
 		(instances
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/cda1f2b0-db1a-481a-9cd3-0bf889086c1f"
-					(reference "U6")
+					(reference "U7")
 					(unit 1)
 				)
 			)

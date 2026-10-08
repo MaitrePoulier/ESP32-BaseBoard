@@ -6658,7 +6658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "025052cd-85ae-41cf-817b-264eca3e8e34")
-		(property "Reference" "J5"
+		(property "Reference" "J10"
 			(at 224.79 93.0655 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6891,7 +6891,7 @@
 		(instances
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/2237552a-455d-4ac3-8a7b-2b14a3b9afb4"
-					(reference "J5")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -6908,7 +6908,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "066273c5-ea88-440b-9926-8f59ce6a8f4a")
-		(property "Reference" "R26"
+		(property "Reference" "R20"
 			(at 161.798 143.002 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6981,7 +6981,7 @@
 		(instances
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/2237552a-455d-4ac3-8a7b-2b14a3b9afb4"
-					(reference "R26")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -7078,7 +7078,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c11e83c-7788-47f1-a3fb-5bf3b78d0a97")
-		(property "Reference" "J3"
+		(property "Reference" "J9"
 			(at 92.71 72.7455 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7179,7 +7179,7 @@
 		(instances
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/2237552a-455d-4ac3-8a7b-2b14a3b9afb4"
-					(reference "J3")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -7196,7 +7196,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "19c6fe11-ea9e-4bb9-aac8-706bd7da2d12")
-		(property "Reference" "R28"
+		(property "Reference" "R27"
 			(at 148.844 162.306 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7269,7 +7269,7 @@
 		(instances
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/2237552a-455d-4ac3-8a7b-2b14a3b9afb4"
-					(reference "R28")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -7521,7 +7521,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4fdce359-eb04-4a5b-8800-78b4a262ab86")
-		(property "Reference" "R30"
+		(property "Reference" "R25"
 			(at 161.544 162.306 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7594,7 +7594,7 @@
 		(instances
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/2237552a-455d-4ac3-8a7b-2b14a3b9afb4"
-					(reference "R30")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -7611,7 +7611,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "524a2a69-a359-4202-81e7-bdb2ee132bee")
-		(property "Reference" "R23"
+		(property "Reference" "R21"
 			(at 155.448 143.002 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7684,7 +7684,7 @@
 		(instances
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/2237552a-455d-4ac3-8a7b-2b14a3b9afb4"
-					(reference "R23")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -7701,7 +7701,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "6e7a6c5e-b91a-4d78-86bd-59f6b5b5f791")
-		(property "Reference" "R29"
+		(property "Reference" "R26"
 			(at 155.194 162.306 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7774,7 +7774,7 @@
 		(instances
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/2237552a-455d-4ac3-8a7b-2b14a3b9afb4"
-					(reference "R29")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -7959,7 +7959,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c3ad9591-2b2f-4f69-bb83-e54d5429b1b9")
-		(property "Reference" "R27"
+		(property "Reference" "R28"
 			(at 142.494 162.306 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8032,7 +8032,7 @@
 		(instances
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/2237552a-455d-4ac3-8a7b-2b14a3b9afb4"
-					(reference "R27")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -8127,7 +8127,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "d876f286-b5f1-459c-9837-5dfd2d42a989")
-		(property "Reference" "R21"
+		(property "Reference" "R23"
 			(at 142.494 143.256 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8200,7 +8200,7 @@
 		(instances
 			(project "esp32-V2"
 				(path "/cee18f8d-8618-44b5-96f4-3f3967d85a92/2237552a-455d-4ac3-8a7b-2b14a3b9afb4"
-					(reference "R21")
+					(reference "R23")
 					(unit 1)
 				)
 			)
