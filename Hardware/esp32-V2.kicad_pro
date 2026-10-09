@@ -181,6 +181,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -192,6 +193,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -203,6 +205,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -559,6 +562,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -626,7 +630,7 @@
       "V-USB": "rgb(120, 109, 255)",
       "Vbatt": "rgb(207, 81, 255)"
     },
-    "netclass_assignments": null,
+    "netclass_assignments": {},
     "netclass_patterns": [
       {
         "netclass": "Power",
@@ -942,12 +946,6 @@
         },
         {
           "group_by": false,
-          "label": "Reference",
-          "name": "Reference",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
           "show": true
@@ -959,22 +957,46 @@
           "show": true
         },
         {
+          "group_by": false,
+          "label": "Reference",
+          "name": "Reference",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "PartNumber",
+          "name": "PartNumber",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": true
+        },
+        {
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -990,32 +1012,14 @@
         },
         {
           "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "KiLib_Generator",
           "name": "KiLib_Generator",
           "show": false
         },
         {
-          "group_by": true,
-          "label": "LCSC",
-          "name": "LCSC",
-          "show": true
-        },
-        {
           "group_by": false,
           "label": "ParNumber",
           "name": "ParNumber",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PartNumber",
-          "name": "PartNumber",
           "show": false
         },
         {
@@ -1053,6 +1057,12 @@
           "label": "ESR",
           "name": "ESR",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Capacitance",
+          "name": "Capacitance",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -1060,7 +1070,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "${EXCLUDE_FROM_BOM}"
+      "sort_field": "PartNumber"
     },
     "bus_aliases": {
       "RGB-LCD": [
@@ -1127,7 +1137,7 @@
         "uuid": "cee18f8d-8618-44b5-96f4-3f3967d85a92"
       }
     ],
-    "used_designators": "L1-15,#PWR1-4,#PWR6,#PWR11-12,#PWR15,#PWR17,#PWR20,#PWR22-25,#PWR27-41,#PWR44,#PWR66-68,#PWR70-85,D1-18,C1-21,C25-55,SW1,SW3-5,NT1,J1-15,Q1-2,U1-6,U8-12,F1-3,R1-16,R21-37,JP1-8,TP1-5",
+    "used_designators": "#PWR1-4,#PWR6,#PWR11-12,#PWR15,#PWR17,#PWR20,#PWR22-25,#PWR27-41,#PWR44,#PWR66-68,#PWR70-85,C1-21,C25-55,D1-18,F1-3,J1-15,JP1-8,L1-15,NT1,Q1-2,R1-16,R21-37,SW1,SW3-5,TP1-5,U1-6,U8-12",
     "variants": []
   },
   "sheets": [

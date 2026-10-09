@@ -12,7 +12,7 @@
 		(comment 1 "by Yannick Vallée, ing.")
 	)
 	(lib_symbols
-		(symbol "Device:C"
+		(symbol "YV-library:CAPX10U0M6V30-00"
 			(pin_numbers
 				(hide yes)
 			)
@@ -24,8 +24,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
+			(property "Reference" "C13"
+				(at 1.524 2.286 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -35,8 +35,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
+			(property "Value" "10uF"
+				(at 1.27 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -46,7 +46,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 				(at 0.9652 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -68,7 +68,7 @@
 					)
 				)
 			)
-			(property "Description" "Unpolarized capacitor"
+			(property "Description" "Cap X5R, 10uF, 6.3V, ±20%, 0402"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -76,6 +76,28 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C15525"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "PartNumber" "CL05A106MQ5NUNC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
 					)
 				)
 			)
@@ -101,7 +123,7 @@
 					)
 				)
 			)
-			(symbol "C_0_1"
+			(symbol "CAPX10U0M6V30-00_0_1"
 				(polyline
 					(pts
 						(xy -2.032 0.762) (xy 2.032 0.762)
@@ -127,7 +149,7 @@
 					)
 				)
 			)
-			(symbol "C_1_1"
+			(symbol "CAPX10U0M6V30-00_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -194,6 +216,7 @@
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -222,7 +245,7 @@
 					)
 				)
 			)
-			(property "Description" "0.65pF 3.3V 500nA 50W@8/20us TVS, 6.2V, 7A@8/20us, Bidirectional, IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 DFN1006-2"
+			(property "Description" "TVS, 0.65pF, 3.3V, 500nA, 50W@8/20us, 6.2V, 7A@8/20us, Bidirectional"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -249,6 +272,16 @@
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Capacitance" "0.65pF"
+				(at 0 -3.048 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -404,7 +437,7 @@
 					)
 				)
 			)
-			(property "Description" "Micro SD Card Socket with one card detection pin"
+			(property "Description" "Connector, Micro SD Card Socket with one card detection pin"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1831,7 +1864,7 @@
 		(dnp no)
 		(uuid "0e7bc0bd-5956-4f7a-9158-6ae6fe41232b")
 		(property "Reference" "D2"
-			(at 114.3 116.332 0)
+			(at 114.3 117.602 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1875,7 +1908,7 @@
 				)
 			)
 		)
-		(property "Description" "0.65pF 3.3V 500nA 50W@8/20us TVS, 6.2V, 7A@8/20us, Bidirectional, IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 DFN1006-2"
+		(property "Description" "TVS, 0.65pF, 3.3V, 500nA, 50W@8/20us, 6.2V, 7A@8/20us, Bidirectional"
 			(at 115.57 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -1899,6 +1932,17 @@
 		)
 		(property "LCSC" "C600818"
 			(at 115.57 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "0.65pF"
+			(at 112.522 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2015,7 +2059,7 @@
 		(dnp no)
 		(uuid "538ed917-526b-4ee4-bbc8-44742d0b0d1c")
 		(property "Reference" "D1"
-			(at 118.11 116.332 0)
+			(at 118.11 117.602 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2059,7 +2103,7 @@
 				)
 			)
 		)
-		(property "Description" "0.65pF 3.3V 500nA 50W@8/20us TVS, 6.2V, 7A@8/20us, Bidirectional, IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 DFN1006-2"
+		(property "Description" "TVS, 0.65pF, 3.3V, 500nA, 50W@8/20us, 6.2V, 7A@8/20us, Bidirectional"
 			(at 119.38 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -2083,6 +2127,17 @@
 		)
 		(property "LCSC" "C600818"
 			(at 119.38 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "0.65pF"
+			(at 116.332 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2243,7 +2298,7 @@
 				)
 			)
 		)
-		(property "Description" "0.65pF 3.3V 500nA 50W@8/20us TVS, 6.2V, 7A@8/20us, Bidirectional, IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 DFN1006-2"
+		(property "Description" "TVS, 0.65pF, 3.3V, 500nA, 50W@8/20us, 6.2V, 7A@8/20us, Bidirectional"
 			(at 111.76 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -2267,6 +2322,17 @@
 		)
 		(property "LCSC" "C600818"
 			(at 111.76 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "0.65pF"
+			(at 108.712 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2347,7 +2413,7 @@
 				)
 			)
 		)
-		(property "Description" "Micro SD Card Socket with one card detection pin"
+		(property "Description" "Connector, Micro SD Card Socket with one card detection pin"
 			(at 158.75 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2485,7 +2551,7 @@
 				)
 			)
 		)
-		(property "Description" "0.65pF 3.3V 500nA 50W@8/20us TVS, 6.2V, 7A@8/20us, Bidirectional, IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 DFN1006-2"
+		(property "Description" "TVS, 0.65pF, 3.3V, 500nA, 50W@8/20us, 6.2V, 7A@8/20us, Bidirectional"
 			(at 104.14 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -2509,6 +2575,17 @@
 		)
 		(property "LCSC" "C600818"
 			(at 104.14 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "0.65pF"
+			(at 101.092 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2747,7 +2824,7 @@
 				)
 			)
 		)
-		(property "Description" "0.65pF 3.3V 500nA 50W@8/20us TVS, 6.2V, 7A@8/20us, Bidirectional, IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 DFN1006-2"
+		(property "Description" "TVS, 0.65pF, 3.3V, 500nA, 50W@8/20us, 6.2V, 7A@8/20us, Bidirectional"
 			(at 107.95 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -2780,6 +2857,17 @@
 				)
 			)
 		)
+		(property "Capacitance" "0.65pF"
+			(at 104.902 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "eeba628f-7a9f-4a6f-b621-1d733c58d266")
 		)
@@ -2796,7 +2884,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "YV-library:CAPX10U0M6V30-00")
 		(at 128.27 82.55 0)
 		(unit 1)
 		(body_style 1)
@@ -2850,7 +2938,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Cap X5R, 10uF, 6.3V, ±20%, 0402"
 			(at 128.27 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -2861,7 +2949,7 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+		(property "LCSC" "C15525"
 			(at 128.27 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -2872,7 +2960,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20069813"
+		(property "PartNumber" "CL05A106MQ5NUNC"
 			(at 128.27 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -2990,7 +3078,7 @@
 		(dnp no)
 		(uuid "ec335350-ab53-4779-9750-b6d16a857251")
 		(property "Reference" "D4"
-			(at 121.92 116.332 0)
+			(at 121.92 117.602 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3034,7 +3122,7 @@
 				)
 			)
 		)
-		(property "Description" "0.65pF 3.3V 500nA 50W@8/20us TVS, 6.2V, 7A@8/20us, Bidirectional, IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 DFN1006-2"
+		(property "Description" "TVS, 0.65pF, 3.3V, 500nA, 50W@8/20us, 6.2V, 7A@8/20us, Bidirectional"
 			(at 123.19 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -3058,6 +3146,17 @@
 		)
 		(property "LCSC" "C600818"
 			(at 123.19 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "0.65pF"
+			(at 120.142 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3138,7 +3237,7 @@
 				)
 			)
 		)
-		(property "Description" "0.65pF 3.3V 500nA 50W@8/20us TVS, 6.2V, 7A@8/20us, Bidirectional, IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 DFN1006-2"
+		(property "Description" "TVS, 0.65pF, 3.3V, 500nA, 50W@8/20us, 6.2V, 7A@8/20us, Bidirectional"
 			(at 100.33 123.19 0)
 			(hide yes)
 			(show_name no)

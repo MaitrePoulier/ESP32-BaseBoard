@@ -12,146 +12,6 @@
 		(comment 1 "by Yannick Vallée, ing.")
 	)
 	(lib_symbols
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "YV-library:ER-CON06HT-1"
 			(pin_names
 				(offset 1.016)
@@ -205,7 +65,7 @@
 					)
 				)
 			)
-			(property "Description" "6 Pins 0.5mm Pitch ZIF Connector"
+			(property "Description" "Connector, Zif, 6 Pins, 0.5mm Pitch, Bottom Contact, -25℃~+85℃"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -541,7 +401,7 @@
 					)
 				)
 			)
-			(property "Description" "0.3mm 0.5mm 2mm 50P Copper Double-Sided Contacts, Top and Bottom Entry Flip-Top Gold Surface Mount, Right Angle SMD,P=0.5mm,Surface Mount，Right Angle FFC, FPC (Flat Flexible) , -25℃~+85℃"
+			(property "Description" "Connector Zif, pitch 0.5mm, height 2mm, 50 Pos, Double-Sided Contacts, Top and Bottom Entry Flip-Top Gold Surface Mount, Right Angle, Surface Mount , -25℃~+85℃"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2089,6 +1949,168 @@
 						)
 					)
 					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "YV-library:RES100KM-00"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R9"
+				(at -2.794 0.254 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100k"
+				(at 0 -0.254 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Res, 100kΩ, 50V, 62.5mW, Thick Film, ±1%, ±100ppm/℃, 0402,  -55℃~+155℃"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "LCSC" "C25741"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "PartNumber" "0402WGF1003TCE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RES100KM-00_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RES100KM-00_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6702,7 +6724,7 @@
 				)
 			)
 		)
-		(property "Description" "0.3mm 0.5mm 2mm 50P Copper Double-Sided Contacts, Top and Bottom Entry Flip-Top Gold Surface Mount, Right Angle SMD,P=0.5mm,Surface Mount，Right Angle FFC, FPC (Flat Flexible) , -25℃~+85℃"
+		(property "Description" "Connector Zif, pitch 0.5mm, height 2mm, 50 Pos, Double-Sided Contacts, Top and Bottom Entry Flip-Top Gold Surface Mount, Right Angle, Surface Mount , -25℃~+85℃"
 			(at 222.25 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -6898,7 +6920,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "YV-library:RES100KM-00")
 		(at 163.83 143.51 180)
 		(unit 1)
 		(body_style 1)
@@ -6924,7 +6946,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -6950,7 +6972,29 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res, 100kΩ, 50V, 62.5mW, Thick Film, ±1%, ±100ppm/℃, 0402,  -55℃~+155℃"
+			(at 163.83 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "LCSC" "C25741"
+			(at 165.608 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "PartNumber" "0402WGF1003TCE"
 			(at 163.83 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -6958,17 +7002,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2909355"
-			(at 163.83 143.51 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
 				)
 			)
 		)
@@ -7111,7 +7144,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.buydisplay.com/download/connector/ER-CON06HT-1.pdf"
+		(property "Datasheet" ""
 			(at 90.17 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -7122,7 +7155,7 @@
 				)
 			)
 		)
-		(property "Description" "6 Pins 0.5mm Pitch ZIF Connector"
+		(property "Description" "Connector, Zif, 6 Pins, 0.5mm Pitch, Bottom Contact, -25℃~+85℃"
 			(at 90.17 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -7186,7 +7219,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "YV-library:RES100KM-00")
 		(at 151.13 162.56 180)
 		(unit 1)
 		(body_style 1)
@@ -7212,7 +7245,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -7238,7 +7271,29 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res, 100kΩ, 50V, 62.5mW, Thick Film, ±1%, ±100ppm/℃, 0402,  -55℃~+155℃"
+			(at 151.13 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "LCSC" "C25741"
+			(at 152.908 162.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "PartNumber" "0402WGF1003TCE"
 			(at 151.13 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -7246,17 +7301,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2909355"
-			(at 151.13 162.56 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
 				)
 			)
 		)
@@ -7511,7 +7555,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "YV-library:RES100KM-00")
 		(at 163.83 162.56 180)
 		(unit 1)
 		(body_style 1)
@@ -7537,7 +7581,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -7563,7 +7607,29 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res, 100kΩ, 50V, 62.5mW, Thick Film, ±1%, ±100ppm/℃, 0402,  -55℃~+155℃"
+			(at 163.83 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "LCSC" "C25741"
+			(at 165.608 162.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "PartNumber" "0402WGF1003TCE"
 			(at 163.83 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -7571,17 +7637,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2909355"
-			(at 163.83 162.56 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
 				)
 			)
 		)
@@ -7601,7 +7656,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "YV-library:RES100KM-00")
 		(at 157.48 143.51 180)
 		(unit 1)
 		(body_style 1)
@@ -7627,7 +7682,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -7653,7 +7708,29 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res, 100kΩ, 50V, 62.5mW, Thick Film, ±1%, ±100ppm/℃, 0402,  -55℃~+155℃"
+			(at 157.48 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "LCSC" "C25741"
+			(at 159.258 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "PartNumber" "0402WGF1003TCE"
 			(at 157.48 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -7661,17 +7738,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2909355"
-			(at 157.48 143.51 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
 				)
 			)
 		)
@@ -7691,7 +7757,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "YV-library:RES100KM-00")
 		(at 157.48 162.56 180)
 		(unit 1)
 		(body_style 1)
@@ -7717,7 +7783,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -7743,7 +7809,29 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res, 100kΩ, 50V, 62.5mW, Thick Film, ±1%, ±100ppm/℃, 0402,  -55℃~+155℃"
+			(at 157.48 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "LCSC" "C25741"
+			(at 159.258 162.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "PartNumber" "0402WGF1003TCE"
 			(at 157.48 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -7751,17 +7839,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2909355"
-			(at 157.48 162.56 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
 				)
 			)
 		)
@@ -7781,7 +7858,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "YV-library:RES100KM-00")
 		(at 151.13 143.51 180)
 		(unit 1)
 		(body_style 1)
@@ -7807,7 +7884,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -7833,7 +7910,29 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res, 100kΩ, 50V, 62.5mW, Thick Film, ±1%, ±100ppm/℃, 0402,  -55℃~+155℃"
+			(at 151.13 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "LCSC" "C25741"
+			(at 152.908 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "PartNumber" "0402WGF1003TCE"
 			(at 151.13 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -7841,17 +7940,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2909355"
-			(at 151.13 143.51 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
 				)
 			)
 		)
@@ -7949,7 +8037,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "YV-library:RES100KM-00")
 		(at 144.78 162.56 180)
 		(unit 1)
 		(body_style 1)
@@ -7975,7 +8063,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -8001,7 +8089,29 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res, 100kΩ, 50V, 62.5mW, Thick Film, ±1%, ±100ppm/℃, 0402,  -55℃~+155℃"
+			(at 144.78 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "LCSC" "C25741"
+			(at 146.558 162.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "PartNumber" "0402WGF1003TCE"
 			(at 144.78 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -8009,17 +8119,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2909355"
-			(at 144.78 162.56 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
 				)
 			)
 		)
@@ -8117,7 +8216,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "YV-library:RES100KM-00")
 		(at 144.78 143.51 180)
 		(unit 1)
 		(body_style 1)
@@ -8143,7 +8242,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -8169,7 +8268,29 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res, 100kΩ, 50V, 62.5mW, Thick Film, ±1%, ±100ppm/℃, 0402,  -55℃~+155℃"
+			(at 144.78 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "LCSC" "C25741"
+			(at 146.558 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "PartNumber" "0402WGF1003TCE"
 			(at 144.78 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -8177,17 +8298,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2909355"
-			(at 144.78 143.51 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
 				)
 			)
 		)

@@ -12,7 +12,7 @@
 		(comment 1 "by Yannick Vallée, ing.")
 	)
 	(lib_symbols
-		(symbol "Device:R"
+		(symbol "YV-library:RES100KM-00"
 			(pin_numbers
 				(hide yes)
 			)
@@ -24,8 +24,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.032 0 90)
+			(property "Reference" "R9"
+				(at -2.794 0.254 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -34,17 +34,17 @@
 					)
 				)
 			)
-			(property "Value" "R"
-				(at 0 0 90)
+			(property "Value" "100k"
+				(at 0 -0.254 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 				(at -1.778 0 90)
 				(show_name no)
 				(do_not_autoplace no)
@@ -66,7 +66,29 @@
 					)
 				)
 			)
-			(property "Description" "Resistor"
+			(property "Description" "Res, 100kΩ, 50V, 62.5mW, Thick Film, ±1%, ±100ppm/℃, 0402,  -55℃~+155℃"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "LCSC" "C25741"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "PartNumber" "0402WGF1003TCE"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -99,7 +121,7 @@
 					)
 				)
 			)
-			(symbol "R_0_1"
+			(symbol "RES100KM-00_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -112,7 +134,7 @@
 					)
 				)
 			)
-			(symbol "R_1_1"
+			(symbol "RES100KM-00_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -531,7 +553,7 @@
 		(uuid "f4baecba-7e95-4187-85e4-8d5c7671bcae")
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "YV-library:RES100KM-00")
 		(at 133.35 60.96 0)
 		(unit 1)
 		(body_style 1)
@@ -553,14 +575,13 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 133.35 63.5 90)
+			(at 133.35 61.214 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -585,7 +606,29 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res, 100kΩ, 50V, 62.5mW, Thick Film, ±1%, ±100ppm/℃, 0402,  -55℃~+155℃"
+			(at 133.35 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "LCSC" "C25741"
+			(at 131.572 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "PartNumber" "0402WGF1003TCE"
 			(at 133.35 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -593,28 +636,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 133.35 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "LCSC" "C25741"
-			(at 133.35 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
 				)
 			)
 		)
@@ -634,7 +655,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "YV-library:RES100KM-00")
 		(at 130.81 60.96 0)
 		(unit 1)
 		(body_style 1)
@@ -656,14 +677,13 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 130.81 63.5 90)
+			(at 130.81 61.214 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -688,7 +708,29 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Res, 100kΩ, 50V, 62.5mW, Thick Film, ±1%, ±100ppm/℃, 0402,  -55℃~+155℃"
+			(at 130.81 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "LCSC" "C25741"
+			(at 129.032 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "PartNumber" "0402WGF1003TCE"
 			(at 130.81 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -696,28 +738,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 130.81 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "LCSC" "C25741"
-			(at 130.81 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
 				)
 			)
 		)
