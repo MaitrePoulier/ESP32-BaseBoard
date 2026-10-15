@@ -6865,7 +6865,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, 10kΩ, 50V, 62.5mW, Thick Film, ±1%, ±100ppm/℃, 0402, -55℃~+155℃"
+		(property "Description" "Res, 10kΩ, 50V, 62.5mW, Thick Film, ±1%, ±100ppm/℃, 0402, -55℃~+155℃"
 			(at 229.87 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -8236,7 +8236,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, 10kΩ, 50V, 62.5mW, Thick Film, ±1%, ±100ppm/℃, 0402, -55℃~+155℃"
+		(property "Description" "Res, 10kΩ, 50V, 62.5mW, Thick Film, ±1%, ±100ppm/℃, 0402, -55℃~+155℃"
 			(at 186.69 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -9855,7 +9855,7 @@
 				)
 			)
 		)
-		(property "Description" "1.5V, 1.5A, Low Noise, Fast Transient Response LDO Regulator, SOT-223"
+		(property "Description" "IC, LDO, Vout 3.3V, drop 550mV, 1.5A, Low Noise,  SOT-223, -40℃~+125℃"
 			(at 55.88 110.49 0)
 			(hide yes)
 			(show_name no)

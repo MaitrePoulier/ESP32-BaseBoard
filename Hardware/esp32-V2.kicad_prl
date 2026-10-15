@@ -1,7 +1,7 @@
 {
   "board": {
-    "active_layer": 0,
-    "active_layer_preset": "",
+    "active_layer": 7,
+    "active_layer_preset": "Back Assembly View",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -36,6 +36,7 @@
       "ratsnest",
       "grid",
       "footprints_front",
+      "footprints_back",
       "footprint_values",
       "footprint_references",
       "tracks",
@@ -52,7 +53,7 @@
       "board_outline_area",
       "ly_points"
     ],
-    "visible_layers": "00000000_00000000_00000002_20000080",
+    "visible_layers": "00000000_00000000_00000002_22000088",
     "zone_display_mode": 0
   },
   "git": {
